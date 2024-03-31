@@ -1,4 +1,4 @@
-# 2024-03-31 21:25
+# 2024-03-31 21:55
 
 name: Fork & Edit
 
@@ -1079,8 +1079,6 @@ jobs:
         curl -L -o Tool-repo/Egern/Rules/WeChat.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
         curl -L -o Tool-repo/Egern/Rules/ChinaDomain.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
         curl -L -o Tool-repo/Egern/Rules/ChinaASN.yaml "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
-        curl -L -o Tool-repo/Egern/Rules/ChinaIPv4.yaml "https://raw.githubusercontent.com/soffchen/GeoIP2-CN/release/surge-ruleset.list"
-        curl -L -o Tool-repo/Egern/Rules/ChinaIPv6.yaml "https://raw.githubusercontent.com/missuo/ASN-China/main/IPv6.China.list"
         # 游戏规则 
         curl -L -o Tool-repo/Egern/Rules/Game.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list"
         curl -L -o Tool-repo/Egern/Rules/Steam.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list"
@@ -1119,21 +1117,7 @@ jobs:
             echo "$file not found."
           fi
         done
-
-      # 适配 egern 规则 yaml
-    - name: Edit Egern/Rules ChinaIPv6.yaml
-      run: |
-        cd Tool-repo/Egern/Rules
-        for file in ChinaIPv6.yaml; do
-          if [ -f "$file" ]; then
-            # 直接在非注释或空行前添加 "IP-CIDR6,"
-            awk '!/\/\/|#|payload:|^ *$/ {print "IP-CIDR6," $0; next} {print}' "$file" > tmpfile
-            mv tmpfile "$file"
-          else
-            echo "$file not found."
-          fi
-        done
-           
+          
       # 适配 egern 规则 yaml
     - name: Edit Egern/Rules
       run: |
