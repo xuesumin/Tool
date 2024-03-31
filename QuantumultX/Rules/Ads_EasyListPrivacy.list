@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202403301507
+## ! Version: 202403311112
 ## ! Title: EasyPrivacy
-## ! Last modified: 30 Mar 2024 15:07 UTC
+## ! Last modified: 31 Mar 2024 11:12 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -4524,6 +4524,7 @@ HOST-SUFFIX,t.y8.com,REJECT
 HOST-SUFFIX,t.zulily.com,REJECT
 HOST-SUFFIX,t2.hulu.com,REJECT
 HOST-SUFFIX,tagger.ope.scmp.com,REJECT
+HOST-SUFFIX,tagging.steelseries.com,REJECT
 HOST-SUFFIX,tags.aljazeera.com,REJECT
 HOST-SUFFIX,tags.johnlewis.com,REJECT
 HOST-SUFFIX,tags.stepstone.com,REJECT
@@ -38752,6 +38753,7 @@ HOST-SUFFIX,hlms.ecologie.gouv.fr,REJECT
 HOST-SUFFIX,insights.decathlon.net,REJECT
 HOST-SUFFIX,kwgs.letudiant.fr,REJECT
 HOST-SUFFIX,logstash-3.radio-canada.ca,REJECT
+HOST-SUFFIX,ocular.dealabs.com,REJECT
 HOST-SUFFIX,p.pagesjaunes.fr,REJECT
 HOST-SUFFIX,pixel.dugwood.com,REJECT
 HOST-SUFFIX,pixel.ionos.fr,REJECT
