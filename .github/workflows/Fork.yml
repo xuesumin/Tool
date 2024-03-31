@@ -1,4 +1,4 @@
-# 2024-03-27 22:10
+# 2024-03-31 21:01
 
 name: Fork & Edit
 
@@ -1217,6 +1217,14 @@ jobs:
     - name: Add and Commits
       run: |
         cd Tool-repo
+        # Get the author of the latest commit
+        latest_author=$(git log -1 --format='%an')
+    
+        # Check if the latest commit author is actions-user
+        if [ "$latest_author" == "actions-user" ]; then
+          git reset --hard HEAD~1  # Remove the latest commit if it's by actions-user
+        fi
+    
         if [[ -n $(git status -s) ]]; then
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
