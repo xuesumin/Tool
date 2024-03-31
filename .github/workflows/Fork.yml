@@ -1,4 +1,4 @@
-# 2024-03-31 21:20
+# 2024-03-31 21:25
 
 name: Fork & Edit
 
@@ -1226,19 +1226,12 @@ jobs:
     - name: Add and Commits
       run: |
         cd Tool-repo
-        # Check for substantial changes
-        if [[ -n $(git diff --exit-code) ]]; then
-          # Remove all commits by actions-user
-          git filter-branch --force --prune-empty --tag-name-filter cat --index-filter 'git rm --cached -r --ignore-unmatch . && git reset $GIT_COMMIT -- .' -- --all
-          if [[ -n $(git status -s) ]]; then
-            git config --local user.email "action@github.com"
-            git config --local user.name "GitHub Action"
-            git add .
-            git commit -m "Auto Update $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
-            git push origin HEAD
-          else
-            echo "No changes to commit."
-          fi
+        if [[ -n $(git status -s) ]]; then
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Auto Update $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
+          git push origin HEAD
         else
           echo "No changes to commit."
         fi
