@@ -31,7 +31,7 @@
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/8.2.PNG" >
 
-以下主要讲的是 `[General]` 区块下的内容，所以示例都以 `[General]` 开头表明在其之下，并不是让你每个参数字段前都加上 `[General]`。
+>! 以下主要讲的是 `[General]` 区块下的内容，所以示例都以 `[General]` 开头表明在其之下，并不是让你每个参数字段前都加上 `[General]`。
 
 
 - 包含系统 DNS 地址
@@ -42,7 +42,7 @@ Loon会优先使用自定义 DNS 服务器，但当自定义服务器丢包严�
 
 ```
 [General]
-# dns服务，system表示系统自带dns服务器
+# dns服务，system 表示系统自带dns服务器
 dns-server = system,119.29.29.29,223.5.5.5
 ```
 
@@ -57,7 +57,7 @@ dns-server = system,119.29.29.29,223.5.5.5
 
 - DNS over HTTPS
 
-> DoH server，标准的url格式，以,分割多个地址
+> DoH server，标准的 url 格式，以`,`分割多个地址
 
 
 ```
@@ -67,7 +67,7 @@ doh-server = https://223.5.5.5/dns-query,https://1.12.12.12/dns-query
 
 - DNS over QUIC
 
-> DNS-over-QUIC服务地址必须以`quic://`开头，默认端口784
+> DNS-over-QUIC 服务地址必须以`quic://`开头，默认端口784
 
 ```
 [General]
@@ -76,7 +76,7 @@ doq-server = quic://dns.alidns.com:853
 
 - DNS over HTTP3
 
-> DNS-over-HTTP3服务地址可以以 `https://` 或者 `h3://` 开头，默认端口443
+> DNS-over-HTTP3 服务地址可以以 `https://` 或者 `h3://` 开头，默认端口 443
 
 ```
 [General]
@@ -87,21 +87,21 @@ doh3-server = h3://223.5.5.5/dns-query
 
 ```
 [General]
-# system表示系统自带dns服务器
+# system 表示系统自带dns服务器
 dns-server = system,119.29.29.29,223.5.5.5
 ```
 
 ### 8.3 DNS映射
 
 
-当需要对特定域名指定DNS服务或者固定IP时，可以使用此功能
+当需要对特定域名指定 DNS 服务或者固定 IP 时，可以使用此功能
 
 「配置标签页」-「DNS」区域 - `DNS映射`
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/8.3.PNG" >
 
 
-以下主要讲的是 `[Host]` 区块下的内容，所以示例都以 `[Host]` 开头表明在其之下，并不是让你每个参数字段前都加上 `[Host]`。
+>! 以下主要讲的是 `[Host]` 区块下的内容，所以示例都以 `[Host]` 开头表明在其之下，并不是让你每个参数字段前都加上 `[Host]`。
 
 
 #### 域名映射 IP
