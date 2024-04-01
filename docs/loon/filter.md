@@ -19,13 +19,13 @@
 
 ### 3.1 规则优先级
 
-由于一般将 `geoip` 的规则放在本地规则中，多个订阅规则中混合使用 `IP类型` 的规则，并且有部分 `IP类型` 的规则没有配置`no-resolve`，导致很多不必要的 DNS查询，所以
+由于一般将 `geoip` 的规则放在本地规则中，多个订阅规则中混合使用 `IP 类型` 的规则，并且有部分 `IP 类型` 的规则没有配置`no-resolve`，导致很多不必要的 DNS 查询，所以
 - **如果一个请求的目标地址是`域名`，会优先匹配`域名类型`的规则**
 - 若**匹配到了`域名类规则`将不会再进行 `IP类规则` 匹配**
 - 若**未匹配到`域名类型`的规则，则会在本地进行 DNS查询，根据查询结果去匹配 `IP类规则`**
 
 
-除了 `域名` 和 `IP类型` 的规则有优先级，其他所有规则会按照配置文件中的顺序来决定优先级，即：
+除了 `域名` 和 `IP 类型` 的规则有优先级，其他所有规则会按照配置文件中的顺序来决定优先级，即：
 - **排在前面的优先级高于排在后面的**
 - **同时本地规则 > 插件中的规则 > 订阅规则，未匹配到任何规则后会使用 `Final规则`**
 
@@ -318,19 +318,32 @@ https://github.com/Repcz/Tool/raw/X/Loon/Rules/APNs.list, policy = DIRECT, tag =
 
 
 以下方的链接举例(这是个网页，不是真正能使用的资源链接)：
-`https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list`
+
+```
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list
+```
 
 例如在末尾添加`?raw=ture`：
-`https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list?raw=ture`
+
+```
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list?raw=ture
+```
 
 或者直接点击`raw`或者`view`，⁠使用跳转后的链接：
-`https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/12306/12306.list`
+
+```
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/12306/12306.list
+```
+
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/raw1.jpg" >
 
 
 或者将链接里的`blob`⁠修改为`raw`：
-`https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/QuantumultX/12306/12306.list`
+
+```
+https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/QuantumultX/12306/12306.list
+```
 
 
 </details>
