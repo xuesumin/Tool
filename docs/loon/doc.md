@@ -8,7 +8,7 @@
 
 ## 导入配置
 
-> 配置参数解释见：应用内**示例配置**及[Loon官方文档](https://loon0x00.github.io/LoonManual)
+> 配置参数解释见：应用内**示例配置**及[Loon官方文档](https://nsloon.app/docs/intro)
 
 ### 1.导入 **配置文件** ：
 * 点击 [链接](https://www.nsloon.com/openloon/import?sub=https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Loon.conf) 一键导入配置文件
