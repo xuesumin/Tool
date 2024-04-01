@@ -359,11 +359,15 @@ test-timeout = 3
 
 
 - NodeSelect：手动选择需要组合的节点
-
-`<别名> = NodeSelect,<远程订阅1>,<远程订阅2>`
-
     - 远程订阅为可选参数,可省略
     - 此参数建议使用 UI 添加
+
+
+```
+<别名> = NodeSelect,<远程订阅1>,<远程订阅2>
+```
+
+eg:
 
 ```
 [Remote Filter]
