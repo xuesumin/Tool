@@ -12,25 +12,10 @@
 
 ### 1.导入 **配置文件** ：
 * 点击 [链接](https://www.nsloon.com/openloon/import?sub=https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Loon.conf) 一键导入配置文件
-* 或在 **设置** 中，找到 **编辑** 区域，点击 **从URL下载** 
-* 复制以下链接，并粘贴到 **URL**
 
-<details>
-  <summary>Loon.conf</summary>
+!> 注意导入时点击`替换并保留节点和证书`！
 
-- [x] 地区分流（香港、美国、日本、台湾、新加坡）
-- [x] 苹果、谷歌、微软、电报、推特分流
-- [x] 流媒体（不支持单独分流）
-- [ ] 自动选择最低延迟
-- [ ] 负载均衡
-- [ ] 故障转移
-- [x] 广告屏蔽
 
-</details>
-
-```
-https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Loon.conf
-```
 
 ### 2.为配置文件生成证书
 * 点击 **设置** ，在下方 **MitM** 区域，点击 **证书管理**
