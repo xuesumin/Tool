@@ -213,6 +213,8 @@ payload:
   - DOMAIN-SUFFIX,1ny3r.icu
   - DOMAIN-SUFFIX,2jse6.icu
   - DOMAIN-SUFFIX,3bxe2.cyou
+  - DOMAIN-SUFFIX,3q1lsj.cn
+  - DOMAIN-SUFFIX,4wu3gf.cn
   - DOMAIN-SUFFIX,51hir.cyou
   - DOMAIN-SUFFIX,5z0d3.cyou
   - DOMAIN-SUFFIX,666bbb333bbb.com
@@ -277,6 +279,7 @@ payload:
   - DOMAIN-SUFFIX,ccsshn137.shop
   - DOMAIN-SUFFIX,cdfhidrk.xyz
   - DOMAIN-SUFFIX,cdftizu.xyz
+  - DOMAIN-SUFFIX,cdmgac.xyz
   - DOMAIN-SUFFIX,cdmnlxtu.xyz
   - DOMAIN-SUFFIX,cdrvkdni.xyz
   - DOMAIN-SUFFIX,cdybwjpa.xyz
@@ -397,12 +400,15 @@ payload:
   - DOMAIN-SUFFIX,hjshal.com
   - DOMAIN-SUFFIX,hkbumv.icu
   - DOMAIN-SUFFIX,hmrwkcx.cn
+  - DOMAIN-SUFFIX,hnalzlu.top
   - DOMAIN-SUFFIX,hnifdlau.top
   - DOMAIN-SUFFIX,hozatr.xyz
+  - DOMAIN-SUFFIX,hptyp.icu
   - DOMAIN-SUFFIX,hrnkdr.xyz
   - DOMAIN-SUFFIX,hsutav.icu
   - DOMAIN-SUFFIX,htyusiu.top
   - DOMAIN-SUFFIX,hubgets.cn
+  - DOMAIN-SUFFIX,hvxrvef.xyz
   - DOMAIN-SUFFIX,hyusnisu.top
   - DOMAIN-SUFFIX,ijvla.cn
   - DOMAIN-SUFFIX,imevzbn.cn
@@ -482,6 +488,7 @@ payload:
   - DOMAIN-SUFFIX,ndthdtr586.shop
   - DOMAIN-SUFFIX,neess105.top
   - DOMAIN-SUFFIX,ngnxyub.cn
+  - DOMAIN-SUFFIX,njenlz.cn
   - DOMAIN-SUFFIX,njhvalu.cn
   - DOMAIN-SUFFIX,nkbkor.icu
   - DOMAIN-SUFFIX,nlhpxj.xyz
@@ -519,7 +526,9 @@ payload:
   - DOMAIN-SUFFIX,pimg2023.com
   - DOMAIN-SUFFIX,pjzxdl.xyz
   - DOMAIN-SUFFIX,pkyjuc.cn
+  - DOMAIN-SUFFIX,pmtrkp.icu
   - DOMAIN-SUFFIX,pnxtnp.xyz
+  - DOMAIN-SUFFIX,pressit.cn
   - DOMAIN-SUFFIX,prhfziq.xyz
   - DOMAIN-SUFFIX,przbzr.xyz
   - DOMAIN-SUFFIX,pseudonym.cn
@@ -561,6 +570,7 @@ payload:
   - DOMAIN-SUFFIX,rpnufv.xyz
   - DOMAIN-SUFFIX,ruqwgb.icu
   - DOMAIN-SUFFIX,rydyvv.xyz
+  - DOMAIN-SUFFIX,ryhkft.xyz
   - DOMAIN-SUFFIX,ryrmvd.xyz
   - DOMAIN-SUFFIX,rzfdbsn.cn
   - DOMAIN-SUFFIX,rzpvbl.xyz
@@ -700,6 +710,7 @@ payload:
   - DOMAIN-SUFFIX,yvbjctqs.xyz
   - DOMAIN-SUFFIX,yvnxetmq.xyz
   - DOMAIN-SUFFIX,yvudqzoa.xyz
+  - DOMAIN-SUFFIX,ywhws.cn
   - DOMAIN-SUFFIX,yyddkm526.shop
   - DOMAIN-SUFFIX,yyttmyy.cn
   - DOMAIN-SUFFIX,zagyjnn.cn
@@ -712,6 +723,10 @@ payload:
   - DOMAIN-SUFFIX,znhlxvb.xyz
   - DOMAIN-SUFFIX,zojyob.icu
   - DOMAIN-SUFFIX,zopuqv.icu
+  - DOMAIN-SUFFIX,pwhkfd.xyz
+  - DOMAIN-SUFFIX,wxfdmri.xyz
+  - DOMAIN-SUFFIX,eluocs.xyz
+  - DOMAIN-SUFFIX,fmssoj.icu
   - DOMAIN-SUFFIX,zsjpi.cn
   - DOMAIN-SUFFIX,zttuvj.xyz
   - DOMAIN-SUFFIX,ztxjutz.xyz
