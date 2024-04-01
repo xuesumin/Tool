@@ -7,7 +7,7 @@
 > 以下搬运至 [Loon官方文档 ](https://loon0x00.github.io/LoonManual/#/cn/general)，不定时更新
 
 
-以下主要讲的是 `[General]` 区块下的内容，所以示例都以 `[General]` 开头表明在其之下，并不是让你每个参数字段前都加上 `[General]`。
+!> 以下主要讲的是 `[General]` 区块下的内容，所以示例都以 `[General]` 开头表明在其之下，并不是让你每个参数字段前都加上 `[General]`。
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/11.1.PNG" >
 
@@ -125,7 +125,9 @@ resource-parser = https://gitlab.com/sub-store/Sub-Store/-/releases/permalink/la
 
 #### 11.1.12 真实 IP
 
-有些app会自己去请求DNS获取IP，这样导致有些域名类型的规则无法进行匹配，所以Loon是用了FakeIP来解决这个问题，原理是截取这些DNS请求，返回一个假的IP响应，然后在获取到这个假的IP的请求时将相关域名映射到请求中；但是有时候系统的一些域名会缓存这些假IP，导致关闭Loon后会用这个假的IP直接发起请求，这就会导致一些问题，针对这种情况可以配置`real-ip`来使这些域名返回真实的ip
+有些app会自己去请求DNS获取IP，这样导致有些域名类型的规则无法进行匹配，所以Loon是用了FakeIP来解决这个问题。
+原理是截取这些DNS请求，返回一个假的IP响应，然后在获取到这个假的IP的请求时将相关域名映射到请求中；
+但是有时候系统的一些域名会缓存这些假IP，导致关闭Loon后会用这个假的IP直接发起请求，这就会导致一些问题，针对这种情况可以配置`real-ip`来使这些域名返回真实的ip
 
 ```
 real-ip = *.apple.com,*.icloud.com

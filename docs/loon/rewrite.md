@@ -8,7 +8,7 @@
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/5.PNG" width="900">
 
 
-以下主要讲的是 `[Rewrite]` 区块下的内容，所以示例都以 `[Rewrite]` 开头表明在其之下，并不是让你每个参数字段前都加上 `[Rewrite]`。
+!> 以下主要讲的是 `[Rewrite]` 区块下的内容，所以示例都以 `[Rewrite]` 开头表明在其之下，并不是让你每个参数字段前都加上 `[Rewrite]`。
 
 >复写的处理会在规则匹配之前
 

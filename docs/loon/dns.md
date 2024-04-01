@@ -31,7 +31,7 @@
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/8.2.PNG" >
 
->! 以下主要讲的是 `[General]` 区块下的内容，所以示例都以 `[General]` 开头表明在其之下，并不是让你每个参数字段前都加上 `[General]`。
+!> 以下主要讲的是 `[General]` 区块下的内容，所以示例都以 `[General]` 开头表明在其之下，并不是让你每个参数字段前都加上 `[General]`。
 
 
 - 包含系统 DNS 地址
@@ -101,7 +101,7 @@ dns-server = system,119.29.29.29,223.5.5.5
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/8.3.PNG" >
 
 
->! 以下主要讲的是 `[Host]` 区块下的内容，所以示例都以 `[Host]` 开头表明在其之下，并不是让你每个参数字段前都加上 `[Host]`。
+!> 以下主要讲的是 `[Host]` 区块下的内容，所以示例都以 `[Host]` 开头表明在其之下，并不是让你每个参数字段前都加上 `[Host]`。
 
 
 #### 域名映射 IP
