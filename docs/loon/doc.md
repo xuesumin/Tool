@@ -50,11 +50,14 @@ https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Loon.conf
 ### 5.导入机场订阅
 * 点击 **设置** ，在最上方 **节点** 区域，点击 **所有节点**
 * 点击右上角加号，复制 **机场订阅** 链接，并粘贴到 **URL**，别名可以写机场名称
-* 如果是不兼容Loon的节点订阅，可参数开启下方的 **资源解析器**
+* 如果是不兼容Loon的节点订阅，可尝试开启下方的 **资源解析器**
 ![1](https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/IMG_1368.PNG)
 
-### 6.设置代理模式
+### 6.修改部分默认设置
 * 点击 [链接](https://www.nsloon.com/openloon/proxymode=tun) 自动跳转Loon修改代理模式为 **TUN Only**
+* 点击底部「配置」按钮 → 点击「MitM」区域下的**域名**按钮，开启 `MitM over HTTP/2` 和 `QUIC　回退保护`
+* 点击底部「配置」按钮 → 点击「其他」区域下的**高级配置**按钮，开启 `SNI　辅助规则切换`
+
 
 
 
