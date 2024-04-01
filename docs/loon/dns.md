@@ -67,7 +67,7 @@ doh-server = https://223.5.5.5/dns-query,https://1.12.12.12/dns-query
 
 - DNS over QUIC
 
-> DNS-over-QUIC服务地址必须以quic://开头，默认端口784
+> DNS-over-QUIC服务地址必须以`quic://`开头，默认端口784
 
 ```
 [General]
