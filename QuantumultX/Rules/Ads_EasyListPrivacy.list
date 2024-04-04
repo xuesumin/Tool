@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202404031456
+## ! Version: 202404040215
 ## ! Title: EasyPrivacy
-## ! Last modified: 03 Apr 2024 14:56 UTC
+## ! Last modified: 04 Apr 2024 02:15 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -4499,6 +4499,7 @@ HOST-SUFFIX,stats.wwitv.com,REJECT
 HOST-SUFFIX,stats2.mytuner.mobi,REJECT
 HOST-SUFFIX,statsegg.cdngeek.com,REJECT
 HOST-SUFFIX,streamstats.prd.dlive.tv,REJECT
+HOST-SUFFIX,svc.eu01.miro.com,REJECT
 HOST-SUFFIX,szrpr.raen.com,REJECT
 HOST-SUFFIX,t.9gag.com,REJECT
 HOST-SUFFIX,t.airasia.com,REJECT
@@ -4586,6 +4587,7 @@ HOST-SUFFIX,tracking.shopstyle.co.uk,REJECT
 HOST-SUFFIX,tracking.shopstyle.com,REJECT
 HOST-SUFFIX,tracking.unrealengine.com,REJECT
 HOST-SUFFIX,trackr.vivenu.com,REJECT
+HOST-SUFFIX,trcksplt.miro.com,REJECT
 HOST-SUFFIX,treatment.grammarly.com,REJECT
 HOST-SUFFIX,tredir.go.com,REJECT
 HOST-SUFFIX,trk.decido.io,REJECT
@@ -38781,6 +38783,8 @@ HOST-SUFFIX,tags.aljazeera.net,REJECT
 HOST-SUFFIX,insight.olx.ba,REJECT
 HOST-SUFFIX,4399stat.5054399.com,REJECT
 HOST-SUFFIX,a.itsmore.cn,REJECT
+HOST-SUFFIX,ac.dun.163.com,REJECT
+HOST-SUFFIX,ac.dun.163yun.com,REJECT
 HOST-SUFFIX,accwww9.53kf.com,REJECT
 HOST-SUFFIX,adstats.tencentmusic.com,REJECT
 HOST-SUFFIX,al.autohome.com.cn,REJECT
@@ -38800,6 +38804,7 @@ HOST-SUFFIX,beacon.qq.com,REJECT
 HOST-SUFFIX,cherry.le.com,REJECT
 HOST-SUFFIX,click.gamersky.com,REJECT
 HOST-SUFFIX,clickcount.cnool.net,REJECT
+HOST-SUFFIX,clientlog.music.163.com,REJECT
 HOST-SUFFIX,count.candou.com,REJECT
 HOST-SUFFIX,count5.pconline.com.cn,REJECT
 HOST-SUFFIX,counter.people.cn,REJECT
@@ -38814,6 +38819,7 @@ HOST-SUFFIX,err.ifengcloud.ifeng.com,REJECT
 HOST-SUFFIX,event.csdn.net,REJECT
 HOST-SUFFIX,fclog.baidu.com,REJECT
 HOST-SUFFIX,flog.pressplay.cc,REJECT
+HOST-SUFFIX,fp-upload.dun.163.com,REJECT
 HOST-SUFFIX,frog.yuanfudao.com,REJECT
 HOST-SUFFIX,ftwo-feedback.autohome.com.cn,REJECT
 HOST-SUFFIX,ftwo-receiver.autohome.com.cn,REJECT
@@ -38860,6 +38866,7 @@ HOST-SUFFIX,rlogs.youdao.com,REJECT
 HOST-SUFFIX,ro.aiwan4399.com,REJECT
 HOST-SUFFIX,s.360.cn,REJECT
 HOST-SUFFIX,sbeacon.sina.com.cn,REJECT
+HOST-SUFFIX,sentry.music.163.com,REJECT
 HOST-SUFFIX,sfp.safe.baidu.com,REJECT
 HOST-SUFFIX,shrek.6.cn,REJECT
 HOST-SUFFIX,sngmta.qq.com,REJECT
