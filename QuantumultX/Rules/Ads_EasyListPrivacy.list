@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202404041130
+## ! Version: 202404041314
 ## ! Title: EasyPrivacy
-## ! Last modified: 04 Apr 2024 11:30 UTC
+## ! Last modified: 04 Apr 2024 13:14 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -4066,6 +4066,7 @@ HOST-SUFFIX,aegis.trovo.live,REJECT
 HOST-SUFFIX,alb.reddit.com,REJECT
 HOST-SUFFIX,als-svc.nytimes.com,REJECT
 HOST-SUFFIX,amethyst.zappos.com,REJECT
+HOST-SUFFIX,amplitude.chess.com,REJECT
 HOST-SUFFIX,ampltd.medal.tv,REJECT
 HOST-SUFFIX,ampltd.top.gg,REJECT
 HOST-SUFFIX,ampltd2.medal.tv,REJECT
