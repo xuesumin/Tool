@@ -246,6 +246,7 @@ URL-REGEX,^http://google\.com,DIRECT
 ##### SRC-PORT
 
 ```
+[Rule]
 SRC-PORT,443,DIRECT
 SRC-PORT,80-443,DIRECT
 SRC-PORT,>=443,DIRECT
@@ -254,6 +255,7 @@ SRC-PORT,>=443,DIRECT
 ##### DEST-PORT
 
 ```
+[Rule]
 DEST-PORT,443,DIRECT
 DEST-PORT,80-443,DIRECT
 DEST-PORT,>=443,DIRECT
@@ -266,6 +268,7 @@ DEST-PORT,>=443,DIRECT
 ###### PROTOCOL
 
 ```
+[Rule]
 PROTOCOL,STUN,REJECT
 ```
 
@@ -280,6 +283,7 @@ PROTOCOL,STUN,REJECT
 
 
 ```
+[Rule]
 # AND,((子规则),(子规则)),Policy
 AND,((DOMAIN-SUFFIX,axample),(DEST-PORT,443),(GEOIP,CN)),DIRECT
 ```
@@ -289,6 +293,7 @@ AND,((DOMAIN-SUFFIX,axample),(DEST-PORT,443),(GEOIP,CN)),DIRECT
 子规则满足一个时匹配
 
 ```
+[Rule]
 # OR,((子规则),(子规则)),PolicyN
 OR,((DOMAIN-SUFFIX,axample),(DEST-PORT,443),(GEOIP,CN,no-resolve)),DIRECT
 ```
@@ -298,6 +303,7 @@ OR,((DOMAIN-SUFFIX,axample),(DEST-PORT,443),(GEOIP,CN,no-resolve)),DIRECT
 子规则不满足时匹配，只有有一个子规则
 
 ```
+[Rule]
 # NOT,((子规则)),Policy
 NOT,((AND,((DOMAIN-SUFFIX,axample),(DEST-PORT,443),(GEOIP,CN)))),DIRECT
 ```
@@ -308,6 +314,7 @@ NOT,((AND,((DOMAIN-SUFFIX,axample),(DEST-PORT,443),(GEOIP,CN)))),DIRECT
 在本地规则的末尾始终有一个 `FINAL` 类型规则兜底
 
 ```
+[Rule]
 DOMAIN-SUFFIX,baidu.com,REJECT
 FINAL,DIRECT
 ```
