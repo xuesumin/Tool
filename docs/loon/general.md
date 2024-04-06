@@ -224,13 +224,18 @@ force-http-engine-hosts = *.baid.com,:8080
 
 ### 11.2 外部资源
 
-<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/11.2.PNG" width="600">
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/11.2.PNG" width="900">
 
 可在此处查看并更新所有外部资源
 
 也可点击 URL Scheme 一键更新
 
 - https://www.nsloon.com/openloon/update?sub=all
+
+Loon 1.1.7版本后新增「下载进度提示」
+
+Loon 1.1.8版本新增「资源自动更新策略」：可自行更改更新时间及是否隐藏下载进度等设置
+
 
 ### 11.3 Apple TV
 
