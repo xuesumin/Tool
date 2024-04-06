@@ -142,10 +142,8 @@ real-ip = *.apple.com,*.icloud.com
 
 # 禁用stun是否禁用stun协议的udp数据，禁用后可以有效解决webrtc的ip泄露
 disable-stun = true
-
-# 禁用udp协议的一些端口
-disable-udp-ports = 443,80
 ```
+!> Loon 1.1.7 版本开始舍弃 `disable-udp-ports` 参数，转为使用端口协议及逻辑规则
 
 #### 11.1.14 代理模式
 
