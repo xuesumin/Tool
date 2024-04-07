@@ -1,4 +1,4 @@
-# 2024-03-15 20:50
+# 2024-04-7 20:10
 
 # > 0-9
 
@@ -316,10 +316,6 @@ DOMAIN-SUFFIX,ca
 
 #########################
 
-# > Akamai
-DOMAIN,a248.e.akamai.net
-DOMAIN,a771.dscq.akamai.net
-
 # > Amazon
 DOMAIN-SUFFIX,amazon.co.jp
 DOMAIN,d3c33hcgiwev3.cloudfront.net
@@ -483,6 +479,9 @@ DOMAIN-SUFFIX,goodnotesplatform.com
 DOMAIN-SUFFIX,goodnotes.com
 DOMAIN,api.sprig.com
 DOMAIN,api2.amplitude.com
+
+# > MagicSchool
+DOMAIN-SUFFIX,xn--9kqs15ei25a.com
 
 # > Notion
 DOMAIN,http-inputs-notion.splunkcloud.com
