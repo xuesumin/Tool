@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202404061242
+## ! Version: 202404071352
 ## ! Title: EasyPrivacy
-## ! Last modified: 06 Apr 2024 12:42 UTC
+## ! Last modified: 07 Apr 2024 13:52 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -3492,6 +3492,7 @@ HOST-SUFFIX,danv01ao0kdr2.cloudfront.net,REJECT
 HOST-SUFFIX,daq0d0aotgq0f.cloudfront.net,REJECT
 HOST-SUFFIX,dc8na2hxrj29i.cloudfront.net,REJECT
 HOST-SUFFIX,dc8xl0ndzn2cb.cloudfront.net,REJECT
+HOST-SUFFIX,dcv4p460uqa46.cloudfront.net,REJECT
 HOST-SUFFIX,dd6zx4ibq538k.cloudfront.net,REJECT
 HOST-SUFFIX,dggaenaawxe8z.cloudfront.net,REJECT
 HOST-SUFFIX,dh0c1bz67fuho.cloudfront.net,REJECT
@@ -4173,6 +4174,7 @@ HOST-SUFFIX,collector.githubapp.com,REJECT
 HOST-SUFFIX,collector.megaxh.com,REJECT
 HOST-SUFFIX,collector.pi.spectrum.net,REJECT
 HOST-SUFFIX,collector.taoxh.life,REJECT
+HOST-SUFFIX,collector.xhaccess.com,REJECT
 HOST-SUFFIX,collector.xhamster.com,REJECT
 HOST-SUFFIX,collector.xhamster.desi,REJECT
 HOST-SUFFIX,collector.xhamster2.com,REJECT
@@ -4192,6 +4194,7 @@ HOST-SUFFIX,cstats.sankakucomplex.com,REJECT
 HOST-SUFFIX,cwt.citywire.info,REJECT
 HOST-SUFFIX,d.skk.moe,REJECT
 HOST-SUFFIX,d401.dollartree.com,REJECT
+HOST-SUFFIX,d712.theinformation.com,REJECT
 HOST-SUFFIX,dabu.askmediagroup.com,REJECT
 HOST-SUFFIX,data.allstate.com,REJECT
 HOST-SUFFIX,data.guide.photobucket.com,REJECT
@@ -39146,10 +39149,13 @@ HOST-SUFFIX,g.siliconweek.es,REJECT
 HOST-SUFFIX,geo.emol.cl,REJECT
 HOST-SUFFIX,hits.antena3.com,REJECT
 HOST-SUFFIX,horizon-track.globo.com,REJECT
+HOST-SUFFIX,mega.promodescuentos.com,REJECT
+HOST-SUFFIX,ocular.promodescuentos.com,REJECT
 HOST-SUFFIX,pixel.europapress.net,REJECT
 HOST-SUFFIX,px-intl.ucweb.com,REJECT
 HOST-SUFFIX,realtime.bbcl.cl,REJECT
 HOST-SUFFIX,rvv.emol.com,REJECT
+HOST-SUFFIX,sst.cooperativa.cl,REJECT
 HOST-SUFFIX,statsmp2.emol.com,REJECT
 HOST-SUFFIX,t-pan.triodos.com,REJECT
 HOST-SUFFIX,unm.emol.com,REJECT

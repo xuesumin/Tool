@@ -200,6 +200,8 @@ payload:
   - DOMAIN,etl.xlmc.sandai.net
   - DOMAIN,exp.360in.com
   - DOMAIN,fg.knlk2md.cn
+  - DOMAIN,finderks.video.qq.com
+  - DOMAIN,finderv1.video.qq.com
   - DOMAIN,flash.sec.miui.com
   - DOMAIN,floor.bz.mgtv.com
   - DOMAIN,g.koowo.com
@@ -402,6 +404,8 @@ payload:
   - DOMAIN,ws.ksmobile.net
   - DOMAIN,www.clarity.ms
   - DOMAIN,www.googleadservices.com
+  - DOMAIN,wxsnsdy.wxs.qq.com
+  - DOMAIN,wxsnsdythumb.wxs.qq.com
   - DOMAIN,yandexmetrica.com
   - DOMAIN,yk-ssp.ad.youku.com
   - DOMAIN,ykad-data.youku.com

@@ -199,6 +199,8 @@ HOST,encounter.bz.mgtv.com,REJECT
 HOST,etl.xlmc.sandai.net,REJECT
 HOST,exp.360in.com,REJECT
 HOST,fg.knlk2md.cn,REJECT
+HOST,finderks.video.qq.com,REJECT
+HOST,finderv1.video.qq.com,REJECT
 HOST,flash.sec.miui.com,REJECT
 HOST,floor.bz.mgtv.com,REJECT
 HOST,g.koowo.com,REJECT
@@ -401,6 +403,8 @@ HOST,wc.51.la,REJECT
 HOST,ws.ksmobile.net,REJECT
 HOST,www.clarity.ms,REJECT
 HOST,www.googleadservices.com,REJECT
+HOST,wxsnsdy.wxs.qq.com,REJECT
+HOST,wxsnsdythumb.wxs.qq.com,REJECT
 HOST,yandexmetrica.com,REJECT
 HOST,yk-ssp.ad.youku.com,REJECT
 HOST,ykad-data.youku.com,REJECT
