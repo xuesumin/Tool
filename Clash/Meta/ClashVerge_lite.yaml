@@ -2,9 +2,9 @@
 # TG:https://t.me/QVQ_Channel
 # 以 '#' 或 '//' 开头的配置文件行为注释行
 #
-# 此配置仅适用于Clash Verg Rev (Version ≥ 1.5.6）,其他ClashMeta客户端未经测试
+# 此配置仅适用于 Clash Verg Rev (Version ≥ 1.5.6）,其他 ClashMeta 客户端未经测试
 #
-# 最后更新时间: 2024-3-10 20:10
+# 最后更新时间: 2024-4-7 19:00
 #
 # ================
 
@@ -84,15 +84,6 @@ fallback: &fallback {type: fallback, lazy: true, url: http://1.1.1.1/generate_20
 
 # 负载均衡策略组：不同的请求将使用不同的代理节点
 load-balance: &load-balance {type: load-balance, lazy: true, url: http://1.1.1.1/generate_204, interval: 900, use: [Subscribe]}
-
-# classical规则相关
-c: &c {type: http, behavior: classical, interval: 86400}
-
-# domain规则相关
-d: &d {type: http, behavior: domain, interval: 86400}
-
-# ipcidr规则相关
-i: &i {type: http, behavior: ipcidr, interval: 86400}
 
 ###结束
 

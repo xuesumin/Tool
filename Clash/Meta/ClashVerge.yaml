@@ -2,9 +2,9 @@
 # TG:https://t.me/QVQ_Channel
 # 以 '#' 或 '//' 开头的配置文件行为注释行
 #
-# 此配置仅适用于Clash Verg Rev (Version ≥ 1.5.6）,其他ClashMeta客户端未经测试
+# 此配置仅适用于 Clash Verg Rev (Version ≥ 1.5.6）,其他 ClashMeta 客户端未经测试
 #
-# 最后更新时间: 2024-3-10 20:10
+# 最后更新时间: 2024-4-7 19:00
 #
 # ================
 
@@ -21,12 +21,6 @@ log-level: info       # 设置日志输出级别 (5 个级别：silent / error /
 external-controller: 0.0.0.0:9093   #外部控制器,可以使用 RESTful API 来控制你的 clash 内核
 global-client-fingerprint: chrome   #全局 TLS 指纹，优先低于 proxy 内的 client-fingerprint
                                     #可选： "chrome","firefox","safari","ios","random","none" options.
-
-# geox-url:             #自定义 geodata url
-  # mmdb: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb"
-  # geoip: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat"
-  # geosite: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite-lite.dat"
-
 
 profile:
   store-selected: true # 存储 select 选择记录
