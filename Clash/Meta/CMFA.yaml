@@ -158,7 +158,7 @@ rule-providers:
   #广告拦截
   AD: {<<: *d, format: text, path: ./rule-providers/AD.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Anti-ad.list}
 
-    # 苹果服务
+  # 苹果服务
   Apple: {<<: *c, format: text, path: ./rule-providers/Apple.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Apple.list}
 
   # 微软服务 
