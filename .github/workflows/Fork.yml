@@ -1,4 +1,4 @@
-# 2024-03-31 21:55
+# 2024-04-13 18:08
 
 name: Fork & Edit
 
@@ -59,6 +59,8 @@ jobs:
         curl -L -o Tool-repo/Surge/Rules/Github.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list"
         curl -L -o Tool-repo/Surge/Rules/OneDrive.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
         curl -L -o Tool-repo/Surge/Rules/Microsoft.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+        # 甲骨文
+        curl -L -o Tool-repo/Surge/Rules/Oracle.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Oracle/Oracle.list"
         # 流媒体
         curl -L -o Tool-repo/Surge/Rules/TikTok.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list"
         curl -L -o Tool-repo/Surge/Rules/Netflix.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"
@@ -228,6 +230,8 @@ jobs:
         curl -L -o Tool-repo/Clash/Rules/Github.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list"
         curl -L -o Tool-repo/Clash/Rules/OneDrive.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
         curl -L -o Tool-repo/Clash/Rules/Microsoft.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+        # 甲骨文
+        curl -L -o Tool-repo/Clash/Rules/Oracle.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Oracle/Oracle.list"
         # Cloudflare
         curl -L -o Tool-repo/Clash/Rules/Cloudflare.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare.list"
         # GFW
@@ -393,6 +397,8 @@ jobs:
         curl -L -o Tool-repo/QuantumultX/Rules/ProxyMedia.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
         # PayPal
         curl -L -o Tool-repo/QuantumultX/Rules/PayPal.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
+        # 甲骨文
+        curl -L -o Tool-repo/QuantumultX/Rules/Oracle.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Oracle/Oracle.list"
         # Cloudflare
         curl -L -o Tool-repo/QuantumultX/Rules/Cloudflare.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare.list"
         # GFW
@@ -536,6 +542,8 @@ jobs:
         curl -L -o Tool-repo/Loon/Rules/Cloudflare.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare.list"
         # PayPal
         curl -L -o Tool-repo/Loon/Rules/PayPal.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
+        # 甲骨文
+        curl -L -o Tool-repo/Loon/Rules/Oracle.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Oracle/Oracle.list"
         # GFW
         curl -L -o Tool-repo/Loon/Rules/ProxyGFW.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
         # Trust
@@ -689,6 +697,8 @@ jobs:
         curl -L -o Tool-repo/Shadowrocket/Rules/Bahamut.list "https://github.com/ACL4SSR/ACL4SSR/raw/master/Clash/Ruleset/Bahamut.list"
         curl -L -o Tool-repo/Shadowrocket/Rules/ProxyMedia.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
         curl -L -o Tool-repo/Shadowrocket/Rules/Emby.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Emby.list"
+        # 甲骨文
+        curl -L -o Tool-repo/Shadowrocket/Rules/Oracle.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Oracle/Oracle.list"
         # PayPal
         curl -L -o Tool-repo/Shadowrocket/Rules/PayPal.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
         # Cloudflare
@@ -815,6 +825,8 @@ jobs:
         curl -L -o Tool-repo/Stash/Rules/Github.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list"
         curl -L -o Tool-repo/Stash/Rules/OneDrive.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
         curl -L -o Tool-repo/Stash/Rules/Microsoft.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+        # 甲骨文
+        curl -L -o Tool-repo/Stash/Rules/Oracle.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Oracle/Oracle.list"
         # 流媒体
         curl -L -o Tool-repo/Stash/Rules/TikTok.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list"
         curl -L -o Tool-repo/Stash/Rules/Netflix.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list"
@@ -896,6 +908,8 @@ jobs:
         curl -L -o Tool-repo/Stash/Rules/Github.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list"
         curl -L -o Tool-repo/Stash/Rules/OneDrive.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
         curl -L -o Tool-repo/Stash/Rules/Microsoft.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+        # 甲骨文
+        curl -L -o Tool-repo/Stash/Rules/Oracle.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Oracle/Oracle.list"
         # 流媒体
         curl -L -o Tool-repo/Stash/Rules/TikTok.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list"
         curl -L -o Tool-repo/Stash/Rules/Netflix.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list"
@@ -1050,6 +1064,8 @@ jobs:
         curl -L -o Tool-repo/Egern/Rules/Github.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list"
         curl -L -o Tool-repo/Egern/Rules/OneDrive.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
         curl -L -o Tool-repo/Egern/Rules/Microsoft.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+        # 甲骨文
+        curl -L -o Tool-repo/Egern/Rules/Oracle.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Oracle/Oracle.list"
         # 流媒体
         curl -L -o Tool-repo/Egern/Rules/TikTok.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list"
         curl -L -o Tool-repo/Egern/Rules/Netflix.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list"
