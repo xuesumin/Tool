@@ -672,6 +672,7 @@ HOST-SUFFIX,ads3-normal-lq.zijieapi.com,REJECT
 HOST-SUFFIX,ads5-normal-hl.zijieapi.com,REJECT
 HOST-SUFFIX,ads5-normal-lf.zijieapi.com,REJECT
 HOST-SUFFIX,ads5-normal-lq.zijieapi.com,REJECT
+HOST-SUFFIX,ads5-normal.zijieapi.com,REJECT
 HOST-SUFFIX,adsafeprotected.com,REJECT
 HOST-SUFFIX,adsage.cn,REJECT
 HOST-SUFFIX,adsage.com,REJECT
