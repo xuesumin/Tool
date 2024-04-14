@@ -462,6 +462,7 @@ DOMAIN-KEYWORD,video-cn.snssdk.com
 DOMAIN-KEYWORD,xxshuyuan
 DOMAIN-SUFFIX,1010pic.com
 DOMAIN-SUFFIX,107iwh.cn
+DOMAIN-SUFFIX,123.56.23.22
 DOMAIN-SUFFIX,163jiasu.com
 DOMAIN-SUFFIX,17gouwuba.com
 DOMAIN-SUFFIX,182.254.116.116
@@ -681,7 +682,6 @@ DOMAIN-SUFFIX,adserve.work
 DOMAIN-SUFFIX,adserver.yahoo.com
 DOMAIN-SUFFIX,adservice.google.cn
 DOMAIN-SUFFIX,adservice.google.com
-DOMAIN-SUFFIX,adservice.sigmob.cn
 DOMAIN-SUFFIX,adserviceretry.kugou.com
 DOMAIN-SUFFIX,adsfile.bssdlbig.kugou.com
 DOMAIN-SUFFIX,adsfilebssdlbig.ali.kugou.com
@@ -914,7 +914,6 @@ DOMAIN-SUFFIX,data.mistat.india.xiaomi.com
 DOMAIN-SUFFIX,data.mistat.rus.xiaomi.com
 DOMAIN-SUFFIX,data.mistat.xiaomi.com
 DOMAIN-SUFFIX,dataflow.biliapi.com
-DOMAIN-SUFFIX,dc.sigmob.cn
 DOMAIN-SUFFIX,ddmax20.xyz
 DOMAIN-SUFFIX,deliver.ifeng.com
 DOMAIN-SUFFIX,designslicensedeep.com
@@ -1569,6 +1568,8 @@ DOMAIN-SUFFIX,sifuhe.cn
 DOMAIN-SUFFIX,sifuhu.cn
 DOMAIN-SUFFIX,sifuji.cn
 DOMAIN-SUFFIX,sifuka.cn
+DOMAIN-SUFFIX,sigmob.c0m
+DOMAIN-SUFFIX,sigmob.cn
 DOMAIN-SUFFIX,silvermob.com
 DOMAIN-SUFFIX,simplereach.com
 DOMAIN-SUFFIX,simpli.fi

@@ -73,6 +73,7 @@ DOMAIN-SUFFIX,ads.music.126.net
 DOMAIN-SUFFIX,ads.oppomobile.com
 DOMAIN-SUFFIX,ads.service.kugou.com
 DOMAIN-SUFFIX,ads.service.kugou.com
+DOMAIN-SUFFIX,ads3-normal.zijieapi.com
 DOMAIN-SUFFIX,ads3-normal-hl.zijieapi.com
 DOMAIN-SUFFIX,ads3-normal-lq.zijieapi.com
 DOMAIN-SUFFIX,ads5-normal-hl.zijieapi.com
@@ -440,7 +441,7 @@ DOMAIN-SUFFIX,service.vmos.cn
 DOMAIN-SUFFIX,sf16-static.i18n-pglstatp.com
 DOMAIN-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com
 DOMAIN-SUFFIX,shouji.sogou.com
-DOMAIN-SUFFIX,sigmob.c0m
+DOMAIN-SUFFIX,sigmob.com
 DOMAIN-SUFFIX,sigmob.cn
 DOMAIN-SUFFIX,skdisplay.jd.com
 DOMAIN-SUFFIX,slb-p2p.vcloud.ks-live.com

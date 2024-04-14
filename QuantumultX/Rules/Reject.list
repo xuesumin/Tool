@@ -462,6 +462,7 @@ HOST-KEYWORD,video-cn.snssdk.com,REJECT
 HOST-KEYWORD,xxshuyuan,REJECT
 HOST-SUFFIX,1010pic.com,REJECT
 HOST-SUFFIX,107iwh.cn,REJECT
+HOST-SUFFIX,123.56.23.22,REJECT
 HOST-SUFFIX,163jiasu.com,REJECT
 HOST-SUFFIX,17gouwuba.com,REJECT
 HOST-SUFFIX,182.254.116.116,REJECT
@@ -681,7 +682,6 @@ HOST-SUFFIX,adserve.work,REJECT
 HOST-SUFFIX,adserver.yahoo.com,REJECT
 HOST-SUFFIX,adservice.google.cn,REJECT
 HOST-SUFFIX,adservice.google.com,REJECT
-HOST-SUFFIX,adservice.sigmob.cn,REJECT
 HOST-SUFFIX,adserviceretry.kugou.com,REJECT
 HOST-SUFFIX,adsfile.bssdlbig.kugou.com,REJECT
 HOST-SUFFIX,adsfilebssdlbig.ali.kugou.com,REJECT
@@ -914,7 +914,6 @@ HOST-SUFFIX,data.mistat.india.xiaomi.com,REJECT
 HOST-SUFFIX,data.mistat.rus.xiaomi.com,REJECT
 HOST-SUFFIX,data.mistat.xiaomi.com,REJECT
 HOST-SUFFIX,dataflow.biliapi.com,REJECT
-HOST-SUFFIX,dc.sigmob.cn,REJECT
 HOST-SUFFIX,ddmax20.xyz,REJECT
 HOST-SUFFIX,deliver.ifeng.com,REJECT
 HOST-SUFFIX,designslicensedeep.com,REJECT
@@ -1569,6 +1568,8 @@ HOST-SUFFIX,sifuhe.cn,REJECT
 HOST-SUFFIX,sifuhu.cn,REJECT
 HOST-SUFFIX,sifuji.cn,REJECT
 HOST-SUFFIX,sifuka.cn,REJECT
+HOST-SUFFIX,sigmob.c0m,REJECT
+HOST-SUFFIX,sigmob.cn,REJECT
 HOST-SUFFIX,silvermob.com,REJECT
 HOST-SUFFIX,simplereach.com,REJECT
 HOST-SUFFIX,simpli.fi,REJECT

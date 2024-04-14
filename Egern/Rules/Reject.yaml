@@ -416,6 +416,7 @@ domain_set:
 domain_suffix_set:
 - 1010pic.com
 - 107iwh.cn
+- 123.56.23.22
 - 163jiasu.com
 - 17gouwuba.com
 - 182.254.116.116
@@ -635,7 +636,6 @@ domain_suffix_set:
 - adserver.yahoo.com
 - adservice.google.cn
 - adservice.google.com
-- adservice.sigmob.cn
 - adserviceretry.kugou.com
 - adsfile.bssdlbig.kugou.com
 - adsfilebssdlbig.ali.kugou.com
@@ -868,7 +868,6 @@ domain_suffix_set:
 - data.mistat.rus.xiaomi.com
 - data.mistat.xiaomi.com
 - dataflow.biliapi.com
-- dc.sigmob.cn
 - ddmax20.xyz
 - deliver.ifeng.com
 - designslicensedeep.com
@@ -1523,6 +1522,8 @@ domain_suffix_set:
 - sifuhu.cn
 - sifuji.cn
 - sifuka.cn
+- sigmob.c0m
+- sigmob.cn
 - silvermob.com
 - simplereach.com
 - simpli.fi
