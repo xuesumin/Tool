@@ -16,6 +16,7 @@
 # 
 
 DOMAIN-SUFFIX,1010pic.com
+DOMAIN-SUFFIX,123.56.23.22
 DOMAIN-SUFFIX,182.254.116.116
 DOMAIN-SUFFIX,203.205.137.89
 DOMAIN-SUFFIX,8le8le.com
@@ -81,7 +82,6 @@ DOMAIN-SUFFIX,ads5-normal.zijieapi.com
 DOMAIN-SUFFIX,adsense.google.cn
 DOMAIN-SUFFIX,adservice.google.cn
 DOMAIN-SUFFIX,adservice.google.com
-DOMAIN-SUFFIX,adservice.sigmob.cn
 DOMAIN-SUFFIX,adserviceretry.kugou.com
 DOMAIN-SUFFIX,adsfile.bssdlbig.kugou.com
 DOMAIN-SUFFIX,adsfile.bssdlbig.kugou.com
@@ -197,7 +197,6 @@ DOMAIN-SUFFIX,data.mistat.india.xiaomi.com
 DOMAIN-SUFFIX,data.mistat.rus.xiaomi.com
 DOMAIN-SUFFIX,data.mistat.xiaomi.com
 DOMAIN-SUFFIX,dataflow.biliapi.com
-DOMAIN-SUFFIX,dc.sigmob.cn
 DOMAIN-SUFFIX,diagnosis.ad.xiaomi.com
 DOMAIN-SUFFIX,dig.bdurl.net
 DOMAIN-SUFFIX,dl.zuimeitianqi.com
@@ -441,6 +440,8 @@ DOMAIN-SUFFIX,service.vmos.cn
 DOMAIN-SUFFIX,sf16-static.i18n-pglstatp.com
 DOMAIN-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com
 DOMAIN-SUFFIX,shouji.sogou.com
+DOMAIN-SUFFIX,sigmob.c0m
+DOMAIN-SUFFIX,sigmob.cn
 DOMAIN-SUFFIX,skdisplay.jd.com
 DOMAIN-SUFFIX,slb-p2p.vcloud.ks-live.com
 DOMAIN-SUFFIX,smartad.10010.com
