@@ -669,6 +669,7 @@ payload:
   - DOMAIN-SUFFIX,ads2.msn.com
   - DOMAIN-SUFFIX,ads3-normal-hl.zijieapi.com
   - DOMAIN-SUFFIX,ads3-normal-lq.zijieapi.com
+  - DOMAIN-SUFFIX,ads3-normal.zijieapi.com
   - DOMAIN-SUFFIX,ads5-normal-hl.zijieapi.com
   - DOMAIN-SUFFIX,ads5-normal-lf.zijieapi.com
   - DOMAIN-SUFFIX,ads5-normal-lq.zijieapi.com
@@ -1569,8 +1570,8 @@ payload:
   - DOMAIN-SUFFIX,sifuhu.cn
   - DOMAIN-SUFFIX,sifuji.cn
   - DOMAIN-SUFFIX,sifuka.cn
-  - DOMAIN-SUFFIX,sigmob.c0m
   - DOMAIN-SUFFIX,sigmob.cn
+  - DOMAIN-SUFFIX,sigmob.com
   - DOMAIN-SUFFIX,silvermob.com
   - DOMAIN-SUFFIX,simplereach.com
   - DOMAIN-SUFFIX,simpli.fi

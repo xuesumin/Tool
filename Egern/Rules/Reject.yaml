@@ -622,6 +622,7 @@ domain_suffix_set:
 - ads2.msn.com
 - ads3-normal-hl.zijieapi.com
 - ads3-normal-lq.zijieapi.com
+- ads3-normal.zijieapi.com
 - ads5-normal-hl.zijieapi.com
 - ads5-normal-lf.zijieapi.com
 - ads5-normal-lq.zijieapi.com
@@ -1522,8 +1523,8 @@ domain_suffix_set:
 - sifuhu.cn
 - sifuji.cn
 - sifuka.cn
-- sigmob.c0m
 - sigmob.cn
+- sigmob.com
 - silvermob.com
 - simplereach.com
 - simpli.fi
