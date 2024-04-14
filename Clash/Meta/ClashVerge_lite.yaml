@@ -4,7 +4,7 @@
 #
 # 此配置仅适用于 Clash Verg Rev (Version ≥ 1.5.6）,其他 ClashMeta 客户端未经测试
 #
-# 最后更新时间: 2024-04-14 17:23
+# 最后更新时间: 2024-04-14 19:41
 #
 # ================
 
@@ -117,8 +117,6 @@ proxy-groups:
   - {name: OpenAI, <<: *pg, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png}
 
   - {name: 游戏平台, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png}
-
-  - {name: Emby, <<: *pg, use: [Subscribe], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png}
 
   - {name: 哔哩哔哩, type: select, proxies: [DIRECT, 香港节点, 台湾节点], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png}
 
