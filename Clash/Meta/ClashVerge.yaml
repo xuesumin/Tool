@@ -4,7 +4,7 @@
 #
 # 此配置仅适用于 Clash Verg Rev (Version ≥ 1.5.6）,其他 ClashMeta 客户端未经测试
 #
-# 最后更新时间: 2024-4-7 19:00
+# 最后更新时间: 2024-04-14 17:23
 #
 # ================
 
@@ -101,7 +101,7 @@ proxy-groups:
 
   #分流分组
 
-  - {name: 手动切换, type: select, use: [Subscribe], proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT], icon: https://github.com/clash-verge-rev/clash-verge-rev/raw/main/src/assets/image/logo.png, }
+  - {name: 手动切换, type: select, use: [Subscribe], proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT], icon: https://github.com/clash-verge-rev/clash-verge-rev/raw/main/src/assets/image/logo.png}
 
   - {name: 国外网站, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png}
 
