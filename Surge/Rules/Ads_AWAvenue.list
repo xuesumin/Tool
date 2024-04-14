@@ -1,6 +1,6 @@
 # Title: AWAvenue 秋风广告规则（AWAvenue-Ads-Rule）
-# 规则版本: 1.4.4
-# 更新时间: 2024-04-13
+# 规则版本: 1.4.5
+# 更新时间: 2024-04-14
 # 
 # 项目地址：https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 # 
@@ -154,6 +154,7 @@ DOMAIN-SUFFIX,applog.zijieapi.com
 DOMAIN-SUFFIX,ata-sdk-uuid-report.dreport.meituan.net
 DOMAIN-SUFFIX,audid-api.taobao.com
 DOMAIN-SUFFIX,audid.umeng.com
+DOMAIN-SUFFIX,authenticate.chiq-cloud.com
 DOMAIN-SUFFIX,azr.footprintdns.com
 DOMAIN-SUFFIX,b1-data.ads.heytapmobi.com
 DOMAIN-SUFFIX,bdapi-ads.realmemobile.com
@@ -180,16 +181,18 @@ DOMAIN-SUFFIX,cdn.ad.xiaomi.com
 DOMAIN-SUFFIX,cdn.ynuf.aliapp.org
 DOMAIN-SUFFIX,cfg.imtt.qq.com
 DOMAIN-SUFFIX,chat1.jd.com
-DOMAIN-SUFFIX,chc.ads.huan.tv
 DOMAIN-SUFFIX,ck.ads.oppomobile.com
 DOMAIN-SUFFIX,clog.miguvideo.com
 DOMAIN-SUFFIX,cm.bilibili.com
 DOMAIN-SUFFIX,cnzz.com
 DOMAIN-SUFFIX,collect.kugou.com
+DOMAIN-SUFFIX,commdata.v.qq.com
+DOMAIN-SUFFIX,config.chsmarttv.com
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
 DOMAIN-SUFFIX,csjplatform.com
 DOMAIN-SUFFIX,data.ads.oppomobile.com
+DOMAIN-SUFFIX,data.chsmarttv.com
 DOMAIN-SUFFIX,data.mistat.india.xiaomi.com
 DOMAIN-SUFFIX,data.mistat.rus.xiaomi.com
 DOMAIN-SUFFIX,data.mistat.xiaomi.com
@@ -200,6 +203,7 @@ DOMAIN-SUFFIX,dig.bdurl.net
 DOMAIN-SUFFIX,dl.zuimeitianqi.com
 DOMAIN-SUFFIX,dlogs.bwton.com
 DOMAIN-SUFFIX,dm.toutiao.com
+DOMAIN-SUFFIX,domain.aishengji.com
 DOMAIN-SUFFIX,doubleclick-cn.net
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,download.changhong.upgrade2.huan.tv
@@ -259,7 +263,6 @@ DOMAIN-SUFFIX,iad.apple.com
 DOMAIN-SUFFIX,iadctest.qwapi.com
 DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,iadworkbench.apple.com
-DOMAIN-SUFFIX,ib.snssdk.com
 DOMAIN-SUFFIX,ifs.tanx.com
 DOMAIN-SUFFIX,image-ad.sm.cn
 DOMAIN-SUFFIX,imageplus.baidu.com
@@ -283,9 +286,12 @@ DOMAIN-SUFFIX,kepler.jd.com
 DOMAIN-SUFFIX,kl.67it.com
 DOMAIN-SUFFIX,knicks.jd.com
 DOMAIN-SUFFIX,ks.pull.yximgs.com
+DOMAIN-SUFFIX,launcher.smart-tv.cn
+DOMAIN-SUFFIX,launcherimg.smart-tv.cn
 DOMAIN-SUFFIX,lf1-cdn-tos.bytegoofy.com
 DOMAIN-SUFFIX,lf3-ad-union-sdk.pglstatp-toutiao.com
 DOMAIN-SUFFIX,liveats-vod.video.ptqy.gitv.tv
+DOMAIN-SUFFIX,livemonitor.huan.tv
 DOMAIN-SUFFIX,lm10111.jtrincc.cn
 DOMAIN-SUFFIX,log-api-mn.huxiu.com
 DOMAIN-SUFFIX,log-api.huxiu.com
@@ -297,6 +303,7 @@ DOMAIN-SUFFIX,log-upload-os.hoyoverse.com
 DOMAIN-SUFFIX,log-upload.mihoyo.com
 DOMAIN-SUFFIX,log.ad.xiaomi.com
 DOMAIN-SUFFIX,log.aispeech.com
+DOMAIN-SUFFIX,log.appstore3.huan.tv
 DOMAIN-SUFFIX,log.avlyun.com
 DOMAIN-SUFFIX,log.avlyun.sec.intl.miui.com
 DOMAIN-SUFFIX,log.byteoversea.com
@@ -333,6 +340,7 @@ DOMAIN-SUFFIX,metrics2.data.hicloud.com
 DOMAIN-SUFFIX,mi.gdt.qq.com
 DOMAIN-SUFFIX,miav-cse.avlyun.com
 DOMAIN-SUFFIX,mine.baidu.com
+DOMAIN-SUFFIX,mission-pub.smart-tv.cn
 DOMAIN-SUFFIX,miui-fxcse.avlyun.com
 DOMAIN-SUFFIX,mnqlog.ldmnq.com
 DOMAIN-SUFFIX,mobads-logs.baidu.com
@@ -348,6 +356,7 @@ DOMAIN-SUFFIX,monsetting.toutiao.com
 DOMAIN-SUFFIX,mssdk.volces.com
 DOMAIN-SUFFIX,mssdk.zijieapi.com
 DOMAIN-SUFFIX,mtj.baidu.com
+DOMAIN-SUFFIX,newvoice.chiq5.smart-tv.cn
 DOMAIN-SUFFIX,nmetrics.samsung.com
 DOMAIN-SUFFIX,notes-analytics-events.apple.com
 DOMAIN-SUFFIX,nsclick.baidu.com
@@ -503,6 +512,7 @@ DOMAIN-SUFFIX,umengjmacs.m.taobao.com
 DOMAIN-SUFFIX,umsns.com
 DOMAIN-SUFFIX,union.baidu.com
 DOMAIN-SUFFIX,update.avlyun.sec.miui.com
+DOMAIN-SUFFIX,update.lejiao.tv
 DOMAIN-SUFFIX,us.l.qq.com
 DOMAIN-SUFFIX,v.adintl.cn
 DOMAIN-SUFFIX,v.adx.hubcloud.com.cn
