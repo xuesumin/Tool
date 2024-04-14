@@ -803,6 +803,7 @@ HOST-SUFFIX,atplay.cn,REJECT
 HOST-SUFFIX,aty.sohu.com,REJECT
 HOST-SUFFIX,audid-api.taobao.com,REJECT
 HOST-SUFFIX,audid.umeng.com,REJECT
+HOST-SUFFIX,authenticate.chiq-cloud.com,REJECT
 HOST-SUFFIX,awaitcola.com,REJECT
 HOST-SUFFIX,axonix.com,REJECT
 HOST-SUFFIX,azr.footprintdns.com,REJECT
@@ -862,7 +863,6 @@ HOST-SUFFIX,cdn.ynuf.aliapp.org,REJECT
 HOST-SUFFIX,ce33m7.com,REJECT
 HOST-SUFFIX,cfg.imtt.qq.com,REJECT
 HOST-SUFFIX,chat1.jd.com,REJECT
-HOST-SUFFIX,chc.ads.huan.tv,REJECT
 HOST-SUFFIX,chemdraw.com.cn,REJECT
 HOST-SUFFIX,cishantao.com,REJECT
 HOST-SUFFIX,cjmakeding.com,REJECT
@@ -876,7 +876,9 @@ HOST-SUFFIX,cm.bilibili.com,REJECT
 HOST-SUFFIX,cnzz.com,REJECT
 HOST-SUFFIX,codesoftchina.com,REJECT
 HOST-SUFFIX,collect.kugou.com,REJECT
+HOST-SUFFIX,commdata.v.qq.com,REJECT
 HOST-SUFFIX,comscore.com,REJECT
+HOST-SUFFIX,config.chsmarttv.com,REJECT
 HOST-SUFFIX,coreldrawchina.com,REJECT
 HOST-SUFFIX,cpatrk.net,REJECT
 HOST-SUFFIX,cpmstar.com,REJECT
@@ -907,6 +909,7 @@ HOST-SUFFIX,da.mgtv.com,REJECT
 HOST-SUFFIX,dafapromo.com,REJECT
 HOST-SUFFIX,daitdai.com,REJECT
 HOST-SUFFIX,data.ads.oppomobile.com,REJECT
+HOST-SUFFIX,data.chsmarttv.com,REJECT
 HOST-SUFFIX,data.mistat.india.xiaomi.com,REJECT
 HOST-SUFFIX,data.mistat.rus.xiaomi.com,REJECT
 HOST-SUFFIX,data.mistat.xiaomi.com,REJECT
@@ -922,6 +925,7 @@ HOST-SUFFIX,disqusads.com,REJECT
 HOST-SUFFIX,dl.zuimeitianqi.com,REJECT
 HOST-SUFFIX,dlogs.bwton.com,REJECT
 HOST-SUFFIX,dm.toutiao.com,REJECT
+HOST-SUFFIX,domain.aishengji.com,REJECT
 HOST-SUFFIX,domob.cn,REJECT
 HOST-SUFFIX,dongmansoft.com,REJECT
 HOST-SUFFIX,dotomi.com,REJECT
@@ -1078,7 +1082,6 @@ HOST-SUFFIX,iad.apple.com,REJECT
 HOST-SUFFIX,iadctest.qwapi.com,REJECT
 HOST-SUFFIX,iadsdk.apple.com,REJECT
 HOST-SUFFIX,iadworkbench.apple.com,REJECT
-HOST-SUFFIX,ib.snssdk.com,REJECT
 HOST-SUFFIX,ichaosheng.com,REJECT
 HOST-SUFFIX,iconworkshop.cn,REJECT
 HOST-SUFFIX,idealads.net,REJECT
@@ -1160,6 +1163,8 @@ HOST-SUFFIX,kuaizip.com,REJECT
 HOST-SUFFIX,kualianyingxiao.cn,REJECT
 HOST-SUFFIX,kumihua.com,REJECT
 HOST-SUFFIX,l.qq.com,REJECT
+HOST-SUFFIX,launcher.smart-tv.cn,REJECT
+HOST-SUFFIX,launcherimg.smart-tv.cn,REJECT
 HOST-SUFFIX,leadboltmobile.net,REJECT
 HOST-SUFFIX,lenzmx.com,REJECT
 HOST-SUFFIX,lf1-cdn-tos.bytegoofy.com,REJECT
@@ -1168,6 +1173,7 @@ HOST-SUFFIX,liadm.com,REJECT
 HOST-SUFFIX,links.services.disqus.com,REJECT
 HOST-SUFFIX,liveadvert.com,REJECT
 HOST-SUFFIX,liveats-vod.video.ptqy.gitv.tv,REJECT
+HOST-SUFFIX,livemonitor.huan.tv,REJECT
 HOST-SUFFIX,lm10111.jtrincc.cn,REJECT
 HOST-SUFFIX,lnk0.com,REJECT
 HOST-SUFFIX,lnk8.cn,REJECT
@@ -1182,6 +1188,7 @@ HOST-SUFFIX,log-upload-os.hoyoverse.com,REJECT
 HOST-SUFFIX,log-upload.mihoyo.com,REJECT
 HOST-SUFFIX,log.ad.xiaomi.com,REJECT
 HOST-SUFFIX,log.aispeech.com,REJECT
+HOST-SUFFIX,log.appstore3.huan.tv,REJECT
 HOST-SUFFIX,log.avlyun.com,REJECT
 HOST-SUFFIX,log.avlyun.sec.intl.miui.com,REJECT
 HOST-SUFFIX,log.byteoversea.com,REJECT
@@ -1250,6 +1257,7 @@ HOST-SUFFIX,mindmanager.cn,REJECT
 HOST-SUFFIX,mindmapper.cc,REJECT
 HOST-SUFFIX,mine.baidu.com,REJECT
 HOST-SUFFIX,minisplat.cn,REJECT
+HOST-SUFFIX,mission-pub.smart-tv.cn,REJECT
 HOST-SUFFIX,miui-fxcse.avlyun.com,REJECT
 HOST-SUFFIX,mkitgfs.com,REJECT
 HOST-SUFFIX,mlnbike.com,REJECT
@@ -1299,6 +1307,7 @@ HOST-SUFFIX,networkad.net,REJECT
 HOST-SUFFIX,new.xiongzhangad.com,REJECT
 HOST-SUFFIX,newapi.com,REJECT
 HOST-SUFFIX,newscgp.com,REJECT
+HOST-SUFFIX,newvoice.chiq5.smart-tv.cn,REJECT
 HOST-SUFFIX,nex8.net,REJECT
 HOST-SUFFIX,nexac.com,REJECT
 HOST-SUFFIX,nexage.com,REJECT
@@ -1768,6 +1777,7 @@ HOST-SUFFIX,unityads.unity3d.com,REJECT
 HOST-SUFFIX,unreshiramor.com,REJECT
 HOST-SUFFIX,unrulymedia.com,REJECT
 HOST-SUFFIX,update.avlyun.sec.miui.com,REJECT
+HOST-SUFFIX,update.lejiao.tv,REJECT
 HOST-SUFFIX,upltv.com,REJECT
 HOST-SUFFIX,uprivaladserver.net,REJECT
 HOST-SUFFIX,upsight-api.com,REJECT

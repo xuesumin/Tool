@@ -804,6 +804,7 @@ payload:
   - DOMAIN-SUFFIX,aty.sohu.com
   - DOMAIN-SUFFIX,audid-api.taobao.com
   - DOMAIN-SUFFIX,audid.umeng.com
+  - DOMAIN-SUFFIX,authenticate.chiq-cloud.com
   - DOMAIN-SUFFIX,awaitcola.com
   - DOMAIN-SUFFIX,axonix.com
   - DOMAIN-SUFFIX,azr.footprintdns.com
@@ -863,7 +864,6 @@ payload:
   - DOMAIN-SUFFIX,ce33m7.com
   - DOMAIN-SUFFIX,cfg.imtt.qq.com
   - DOMAIN-SUFFIX,chat1.jd.com
-  - DOMAIN-SUFFIX,chc.ads.huan.tv
   - DOMAIN-SUFFIX,chemdraw.com.cn
   - DOMAIN-SUFFIX,cishantao.com
   - DOMAIN-SUFFIX,cjmakeding.com
@@ -877,7 +877,9 @@ payload:
   - DOMAIN-SUFFIX,cnzz.com
   - DOMAIN-SUFFIX,codesoftchina.com
   - DOMAIN-SUFFIX,collect.kugou.com
+  - DOMAIN-SUFFIX,commdata.v.qq.com
   - DOMAIN-SUFFIX,comscore.com
+  - DOMAIN-SUFFIX,config.chsmarttv.com
   - DOMAIN-SUFFIX,coreldrawchina.com
   - DOMAIN-SUFFIX,cpatrk.net
   - DOMAIN-SUFFIX,cpmstar.com
@@ -908,6 +910,7 @@ payload:
   - DOMAIN-SUFFIX,dafapromo.com
   - DOMAIN-SUFFIX,daitdai.com
   - DOMAIN-SUFFIX,data.ads.oppomobile.com
+  - DOMAIN-SUFFIX,data.chsmarttv.com
   - DOMAIN-SUFFIX,data.mistat.india.xiaomi.com
   - DOMAIN-SUFFIX,data.mistat.rus.xiaomi.com
   - DOMAIN-SUFFIX,data.mistat.xiaomi.com
@@ -923,6 +926,7 @@ payload:
   - DOMAIN-SUFFIX,dl.zuimeitianqi.com
   - DOMAIN-SUFFIX,dlogs.bwton.com
   - DOMAIN-SUFFIX,dm.toutiao.com
+  - DOMAIN-SUFFIX,domain.aishengji.com
   - DOMAIN-SUFFIX,domob.cn
   - DOMAIN-SUFFIX,dongmansoft.com
   - DOMAIN-SUFFIX,dotomi.com
@@ -1079,7 +1083,6 @@ payload:
   - DOMAIN-SUFFIX,iadctest.qwapi.com
   - DOMAIN-SUFFIX,iadsdk.apple.com
   - DOMAIN-SUFFIX,iadworkbench.apple.com
-  - DOMAIN-SUFFIX,ib.snssdk.com
   - DOMAIN-SUFFIX,ichaosheng.com
   - DOMAIN-SUFFIX,iconworkshop.cn
   - DOMAIN-SUFFIX,idealads.net
@@ -1161,6 +1164,8 @@ payload:
   - DOMAIN-SUFFIX,kualianyingxiao.cn
   - DOMAIN-SUFFIX,kumihua.com
   - DOMAIN-SUFFIX,l.qq.com
+  - DOMAIN-SUFFIX,launcher.smart-tv.cn
+  - DOMAIN-SUFFIX,launcherimg.smart-tv.cn
   - DOMAIN-SUFFIX,leadboltmobile.net
   - DOMAIN-SUFFIX,lenzmx.com
   - DOMAIN-SUFFIX,lf1-cdn-tos.bytegoofy.com
@@ -1169,6 +1174,7 @@ payload:
   - DOMAIN-SUFFIX,links.services.disqus.com
   - DOMAIN-SUFFIX,liveadvert.com
   - DOMAIN-SUFFIX,liveats-vod.video.ptqy.gitv.tv
+  - DOMAIN-SUFFIX,livemonitor.huan.tv
   - DOMAIN-SUFFIX,lm10111.jtrincc.cn
   - DOMAIN-SUFFIX,lnk0.com
   - DOMAIN-SUFFIX,lnk8.cn
@@ -1183,6 +1189,7 @@ payload:
   - DOMAIN-SUFFIX,log-upload.mihoyo.com
   - DOMAIN-SUFFIX,log.ad.xiaomi.com
   - DOMAIN-SUFFIX,log.aispeech.com
+  - DOMAIN-SUFFIX,log.appstore3.huan.tv
   - DOMAIN-SUFFIX,log.avlyun.com
   - DOMAIN-SUFFIX,log.avlyun.sec.intl.miui.com
   - DOMAIN-SUFFIX,log.byteoversea.com
@@ -1251,6 +1258,7 @@ payload:
   - DOMAIN-SUFFIX,mindmapper.cc
   - DOMAIN-SUFFIX,mine.baidu.com
   - DOMAIN-SUFFIX,minisplat.cn
+  - DOMAIN-SUFFIX,mission-pub.smart-tv.cn
   - DOMAIN-SUFFIX,miui-fxcse.avlyun.com
   - DOMAIN-SUFFIX,mkitgfs.com
   - DOMAIN-SUFFIX,mlnbike.com
@@ -1300,6 +1308,7 @@ payload:
   - DOMAIN-SUFFIX,new.xiongzhangad.com
   - DOMAIN-SUFFIX,newapi.com
   - DOMAIN-SUFFIX,newscgp.com
+  - DOMAIN-SUFFIX,newvoice.chiq5.smart-tv.cn
   - DOMAIN-SUFFIX,nex8.net
   - DOMAIN-SUFFIX,nexac.com
   - DOMAIN-SUFFIX,nexage.com
@@ -1769,6 +1778,7 @@ payload:
   - DOMAIN-SUFFIX,unreshiramor.com
   - DOMAIN-SUFFIX,unrulymedia.com
   - DOMAIN-SUFFIX,update.avlyun.sec.miui.com
+  - DOMAIN-SUFFIX,update.lejiao.tv
   - DOMAIN-SUFFIX,upltv.com
   - DOMAIN-SUFFIX,uprivaladserver.net
   - DOMAIN-SUFFIX,upsight-api.com

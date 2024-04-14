@@ -757,6 +757,7 @@ domain_suffix_set:
 - aty.sohu.com
 - audid-api.taobao.com
 - audid.umeng.com
+- authenticate.chiq-cloud.com
 - awaitcola.com
 - axonix.com
 - azr.footprintdns.com
@@ -816,7 +817,6 @@ domain_suffix_set:
 - ce33m7.com
 - cfg.imtt.qq.com
 - chat1.jd.com
-- chc.ads.huan.tv
 - chemdraw.com.cn
 - cishantao.com
 - cjmakeding.com
@@ -830,7 +830,9 @@ domain_suffix_set:
 - cnzz.com
 - codesoftchina.com
 - collect.kugou.com
+- commdata.v.qq.com
 - comscore.com
+- config.chsmarttv.com
 - coreldrawchina.com
 - cpatrk.net
 - cpmstar.com
@@ -861,6 +863,7 @@ domain_suffix_set:
 - dafapromo.com
 - daitdai.com
 - data.ads.oppomobile.com
+- data.chsmarttv.com
 - data.mistat.india.xiaomi.com
 - data.mistat.rus.xiaomi.com
 - data.mistat.xiaomi.com
@@ -876,6 +879,7 @@ domain_suffix_set:
 - dl.zuimeitianqi.com
 - dlogs.bwton.com
 - dm.toutiao.com
+- domain.aishengji.com
 - domob.cn
 - dongmansoft.com
 - dotomi.com
@@ -1032,7 +1036,6 @@ domain_suffix_set:
 - iadctest.qwapi.com
 - iadsdk.apple.com
 - iadworkbench.apple.com
-- ib.snssdk.com
 - ichaosheng.com
 - iconworkshop.cn
 - idealads.net
@@ -1114,6 +1117,8 @@ domain_suffix_set:
 - kualianyingxiao.cn
 - kumihua.com
 - l.qq.com
+- launcher.smart-tv.cn
+- launcherimg.smart-tv.cn
 - leadboltmobile.net
 - lenzmx.com
 - lf1-cdn-tos.bytegoofy.com
@@ -1122,6 +1127,7 @@ domain_suffix_set:
 - links.services.disqus.com
 - liveadvert.com
 - liveats-vod.video.ptqy.gitv.tv
+- livemonitor.huan.tv
 - lm10111.jtrincc.cn
 - lnk0.com
 - lnk8.cn
@@ -1136,6 +1142,7 @@ domain_suffix_set:
 - log-upload.mihoyo.com
 - log.ad.xiaomi.com
 - log.aispeech.com
+- log.appstore3.huan.tv
 - log.avlyun.com
 - log.avlyun.sec.intl.miui.com
 - log.byteoversea.com
@@ -1204,6 +1211,7 @@ domain_suffix_set:
 - mindmapper.cc
 - mine.baidu.com
 - minisplat.cn
+- mission-pub.smart-tv.cn
 - miui-fxcse.avlyun.com
 - mkitgfs.com
 - mlnbike.com
@@ -1253,6 +1261,7 @@ domain_suffix_set:
 - new.xiongzhangad.com
 - newapi.com
 - newscgp.com
+- newvoice.chiq5.smart-tv.cn
 - nex8.net
 - nexac.com
 - nexage.com
@@ -1722,6 +1731,7 @@ domain_suffix_set:
 - unreshiramor.com
 - unrulymedia.com
 - update.avlyun.sec.miui.com
+- update.lejiao.tv
 - upltv.com
 - uprivaladserver.net
 - upsight-api.com
