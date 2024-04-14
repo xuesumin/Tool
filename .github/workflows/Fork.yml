@@ -1,4 +1,4 @@
-# 2024-04-13 18:08
+# 2024-04-14 21:00
 
 name: Fork & Edit
 
@@ -366,8 +366,8 @@ jobs:
         curl -L -o Tool-repo/QuantumultX/Rules/iCloud.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iCloud/iCloud.list"
         curl -L -o Tool-repo/QuantumultX/Rules/AppleProxy.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
         # OpenAI
-        curl -L -o Tool-repo/QuantumultX/Rules/OpenAI.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/QuantumultX/Rule/OpenAI.snippet"
-        curl -L -o Tool-repo/QuantumultX/Rules/ChatGPT_Voice.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/QuantumultX/Rule/ChatGPT_Voice.snippet"
+        curl -L -o Tool-repo/QuantumultX/Rules/OpenAI.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/OpenAI.list"
+        curl -L -o Tool-repo/QuantumultX/Rules/ChatGPT_Voice.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ChatGPT_Voice.list"
         # Claude AI
         curl -L -o Tool-repo/QuantumultX/Rules/Claude.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Claude.list"
         # 社交媒体
