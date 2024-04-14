@@ -1,4 +1,4 @@
-# 2024-04-14 21:00
+# 2024-04-14 21:40
 
 name: Fork & Edit
 
@@ -453,7 +453,7 @@ jobs:
       run: |
         cd Tool-repo/QuantumultX/Rules
         for file in *.list; do
-          if [ -f "$file" ]; then
+          if [ "$file" != "OpenAI.list" ] && [ "$file" != "ChatGPT_Voice.list" ]; then
             # 适配
             sed -i -e 's/, /,/g' \
                    -e 's/,REJECT$//g' \
@@ -483,7 +483,7 @@ jobs:
       run: |
         cd Tool-repo/QuantumultX/Rules
         for file in *.list; do
-          if [ -f "$file" ]; then
+          if [ "$file" != "OpenAI.list" ] && [ "$file" != "ChatGPT_Voice.list" ]; then
               sed -i '/^[[:space:]]*#/!s/\([^[:space:]]\)$/\1,PROXY/' "$file"
               if echo "$file" | grep -qE "(Ads_|AdGuardChinese|ConnersHua|Reject)"; then
                 sed -i 's/,PROXY/,REJECT/g' "$file"
