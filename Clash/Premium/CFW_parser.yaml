@@ -5,7 +5,7 @@
 #
 # 此配置仅适用于Clash for Windows,其他Clash客户端未经测试
 #
-# 最后更新时间: 2024-2-13 12:45
+# 最后更新时间: 2024-4-15 18:15
 #
 # ================
 
@@ -167,7 +167,7 @@ parsers: # array
           type: http
           behavior: classical
           format: text
-          url:  https://mirror.ghproxy.com/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Lan.list
+          url:  https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Lan.list
           path: ./rule-providers/Lan.list
           interval: 86400
 
@@ -175,7 +175,7 @@ parsers: # array
           type: http
           behavior: classical
           format: text
-          url:  https://mirror.ghproxy.com/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Download.list
+          url:  https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Download.list
           path: ./rule-providers/Download.list
           interval: 86400
 
@@ -183,7 +183,7 @@ parsers: # array
           type: http
           behavior: domain
           format: text
-          url: https://mirror.ghproxy.com/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Anti-ad.list
+          url: https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Anti-ad.list
           path: ./rule-providers/anti-ad.list
           interval: 86400
 
@@ -191,7 +191,7 @@ parsers: # array
           type: http
           behavior: classical
           format: text
-          url:  https://mirror.ghproxy.com/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Apple.list
+          url:  https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Apple.list
           path: ./rule-providers/Apple.list
           interval: 86400
 
@@ -199,7 +199,7 @@ parsers: # array
           type: http
           behavior: classical
           format: text
-          url:  https://mirror.ghproxy.com/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Microsoft.list
+          url:  https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Microsoft.list
           path: ./rule-providers/Microsoft.list
           interval: 86400
 
@@ -207,7 +207,7 @@ parsers: # array
           type: http
           behavior: classical
           format: text
-          url:  https://mirror.ghproxy.com/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Github.list
+          url:  https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Github.list
           path: ./rule-providers/Github.list
           interval: 86400
 
@@ -215,7 +215,7 @@ parsers: # array
           type: http
           behavior: classical
           format: text
-          url:  https://mirror.ghproxy.com/https://github.com/Repcz/Tool/raw/X/Clash/Rules/OneDrive.list
+          url:  https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/OneDrive.list
           path: ./rule-providers/OneDrive.list
           interval: 86400
 
@@ -223,7 +223,7 @@ parsers: # array
           type: http
           behavior: classical
           format: text
-          url:  https://mirror.ghproxy.com/https://github.com/Repcz/Tool/raw/X/Clash/Rules/YouTube.list
+          url:  https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/YouTube.list
           path: ./rule-providers/YouTube.list
           interval: 86400
 
@@ -231,7 +231,7 @@ parsers: # array
           type: http
           behavior: classical
           format: text
-          url:  https://mirror.ghproxy.com/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Google.list
+          url:  https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Google.list
           path: ./rule-providers/Google.list
           interval: 86400
 
@@ -239,7 +239,7 @@ parsers: # array
           type: http
           behavior: classical
           format: text
-          url:  https://mirror.ghproxy.com/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Telegram.list
+          url:  https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Telegram.list
           path: ./rule-providers/Telegram.list
           interval: 86400
 
@@ -247,7 +247,7 @@ parsers: # array
           type: http
           behavior: classical
           format: text
-          url:  https://mirror.ghproxy.com/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Twitter.list
+          url:  https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Twitter.list
           path: ./rule-providers/Twitter.list
           interval: 86400
 
@@ -255,7 +255,7 @@ parsers: # array
           type: http
           behavior: classical
           format: text
-          url:  https://mirror.ghproxy.com/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Game.list
+          url:  https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Game.list
           path: ./rule-providers/Game.list
           interval: 86400
 
@@ -263,7 +263,7 @@ parsers: # array
           type: http
           behavior: classical
           format: text
-          url:  https://mirror.ghproxy.com/https://github.com/Repcz/Tool/raw/X/Clash/Rules/OpenAI.list
+          url:  https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/OpenAI.list
           path: ./rule-providers/OpenAI.list
           interval: 86400
 
@@ -271,7 +271,7 @@ parsers: # array
           type: http
           behavior: classical
           format: text
-          url:  https://mirror.ghproxy.com/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Bilibili.list
+          url:  https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Bilibili.list
           path: ./rule-providers/BiliBili.list
           interval: 86400
 
@@ -279,7 +279,7 @@ parsers: # array
           type: http
           behavior: classical
           format: text
-          url: https://mirror.ghproxy.com/https://github.com/Repcz/Tool/raw/X/Clash/Rules/ChinaDomain.list
+          url: https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/ChinaDomain.list
           path: ./rule-providers/ChinaDomain.list
           interval: 86400
 
@@ -287,7 +287,7 @@ parsers: # array
           type: http
           behavior: classical
           format: text
-          url:  https://mirror.ghproxy.com/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Emby.list
+          url:  https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Emby.list
           path: ./rule-providers/Emby.list
           interval: 86400
 
@@ -295,7 +295,7 @@ parsers: # array
           type: http
           behavior: classical
           format: text
-          url:  https://mirror.ghproxy.com/https://github.com/Repcz/Tool/raw/X/Clash/Rules/ProxyMedia.list
+          url:  https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/ProxyMedia.list
           path: ./rule-providers/ProxyMedia.list
           interval: 86400
 
@@ -303,7 +303,7 @@ parsers: # array
           type: http
           behavior: classical
           format: text
-          url:  https://mirror.ghproxy.com/https://github.com/Repcz/Tool/raw/X/Clash/Rules/ProxyGFW.list
+          url:  https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/ProxyGFW.list
           path: ./rule-providers/ProxyGFW.list
           interval: 86400
 

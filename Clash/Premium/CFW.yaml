@@ -4,7 +4,7 @@
 #
 # 此配置仅适用于Clash for Windows,其他Clash客户端未经测试
 #
-# 最后更新时间: 2024-4-7 19:00
+# 最后更新时间: 2024-4-15 18:15
 #
 # ================
 
@@ -122,53 +122,53 @@ proxy-groups:
 rule-providers:
 
   # 局域网   
-  Lan: {<<: *c, format: text, path: ./rule-providers/Lan.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Lan.list}
+  Lan: {<<: *c, format: text, path: ./rule-providers/Lan.list,  url: https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Lan.list}
 
   # 下载服务
-  Download: {<<: *c, format: text, path: ./rule-providers/Download.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Download.list}
+  Download: {<<: *c, format: text, path: ./rule-providers/Download.list,  url: https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Download.list}
       
   #广告拦截
-  AD: {<<: *d, format: text, path: ./rule-providers/AD.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Anti-ad.list}
+  AD: {<<: *d, format: text, path: ./rule-providers/AD.list, url: https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Anti-ad.list}
 
   # 苹果服务
-  Apple: {<<: *c, format: text, path: ./rule-providers/Apple.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Apple.list}
+  Apple: {<<: *c, format: text, path: ./rule-providers/Apple.list,  url: https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Apple.list}
 
   # 微软服务 
-  OneDrive: {<<: *c, format: text, path: ./rule-providers/OneDrive.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/OneDrive.list}
-  Github: {<<: *c, format: text, path: ./rule-providers/Github.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Github.list}
-  Microsoft: {<<: *c, format: text, path: ./rule-providers/Microsoft.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Microsoft.list}
+  OneDrive: {<<: *c, format: text, path: ./rule-providers/OneDrive.list,  url: https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/OneDrive.list}
+  Github: {<<: *c, format: text, path: ./rule-providers/Github.list,  url: https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Github.list}
+  Microsoft: {<<: *c, format: text, path: ./rule-providers/Microsoft.list,  url: https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Microsoft.list}
 
   # 谷歌服务
-  YouTube: {<<: *c, format: text, path: ./rule-providers/YouTube.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/YouTube.list}
-  Google: {<<: *c, format: text, path: ./rule-providers/Google.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Google.list}
+  YouTube: {<<: *c, format: text, path: ./rule-providers/YouTube.list,  url: https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/YouTube.list}
+  Google: {<<: *c, format: text, path: ./rule-providers/Google.list,  url: https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Google.list}
 
   # 电报消息
-  Telegram: {<<: *c, format: text, path: ./rule-providers/Telegram.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Telegram.list}
+  Telegram: {<<: *c, format: text, path: ./rule-providers/Telegram.list,  url: https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Telegram.list}
 
   # 推特消息
-  Twitter: {<<: *c, format: text, path: ./rule-providers/Twitter.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Twitter.list}
+  Twitter: {<<: *c, format: text, path: ./rule-providers/Twitter.list,  url: https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Twitter.list}
 
   # 哔哩哔哩
-  BiliBili: {<<: *c, format: text, path: ./rule-providers/BiliBili.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Bilibili.list}
+  BiliBili: {<<: *c, format: text, path: ./rule-providers/BiliBili.list,  url: https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Bilibili.list}
 
   # 游戏平台
-  Steam: {<<: *c, format: text, path: ./rule-providers/steam.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Steam.list}
-  Epic: {<<: *c, format: text, path: ./rule-providers/Epic.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Epic.list}
+  Steam: {<<: *c, format: text, path: ./rule-providers/steam.list,  url: https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Steam.list}
+  Epic: {<<: *c, format: text, path: ./rule-providers/Epic.list,  url: https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Epic.list}
 
   # AI平台
-  OpenAI: {<<: *c, format: text, path: ./rule-providers/OpenAI.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/OpenAI.list}
+  OpenAI: {<<: *c, format: text, path: ./rule-providers/OpenAI.list,  url: https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/OpenAI.list}
 
   # 中国大陆
-  ChinaDomain: {<<: *c, format: text, path: ./rule-providers/ChinaDomain.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/ChinaDomain.list}
+  ChinaDomain: {<<: *c, format: text, path: ./rule-providers/ChinaDomain.list,  url: https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/ChinaDomain.list}
 
   # Emby
-  Emby: {<<: *c, format: text, path: ./rule-providers/Emby.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Emby.list}
+  Emby: {<<: *c, format: text, path: ./rule-providers/Emby.list,  url: https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/Emby.list}
 
   # 国际媒体
-  ProxyMedia: {<<: *c, format: text, path: ./rule-providers/ProxyMedia.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/ProxyMedia.list}
+  ProxyMedia: {<<: *c, format: text, path: ./rule-providers/ProxyMedia.list,  url: https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/ProxyMedia.list}
 
   # 代理网站
-  ProxyGFW: {<<: *c, format: text, path: ./rule-providers/ProxyGFW.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/ProxyGFW.list}
+  ProxyGFW: {<<: *c, format: text, path: ./rule-providers/ProxyGFW.list,  url: https://git.988896.xyz/https://github.com/Repcz/Tool/raw/X/Clash/Rules/ProxyGFW.list}
  
 rules:
   #- SCRIPT,quic,REJECT
