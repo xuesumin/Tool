@@ -1,4 +1,4 @@
-# 2024-03-30 18:38:16
+# 2024-04-15 11:24
 HOST,api.statsig.com,PROXY
 HOST,browser-intake-datadoghq.com,PROXY
 HOST,cdn.openai.com,PROXY
@@ -28,7 +28,6 @@ HOST-SUFFIX,observeit.net,PROXY
 HOST-SUFFIX,openai.com,PROXY
 HOST-SUFFIX,openaiapi-site.azureedge.net,PROXY
 HOST-SUFFIX,openaicom.imgix.net,PROXY
-HOST-SUFFIX,poe.com,PROXY
 HOST-SUFFIX,segment.io,PROXY
 HOST-SUFFIX,sentry.io,PROXY
 HOST-SUFFIX,stripe.com,PROXY
