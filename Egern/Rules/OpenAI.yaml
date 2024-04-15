@@ -30,7 +30,6 @@ domain_suffix_set:
 - openai.com
 - openaiapi-site.azureedge.net
 - openaicom.imgix.net
-- poe.com
 - segment.io
 - sentry.io
 - stripe.com
