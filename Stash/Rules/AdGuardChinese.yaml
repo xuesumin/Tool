@@ -226,8 +226,10 @@ payload:
   - DOMAIN-SUFFIX,6slb0.cyou
   - DOMAIN-SUFFIX,6zfem.icu
   - DOMAIN-SUFFIX,777bbb222bbb.com
+  - DOMAIN-SUFFIX,777bbb777www.com
   - DOMAIN-SUFFIX,7vviw.cyou
   - DOMAIN-SUFFIX,888bb555ww.com
+  - DOMAIN-SUFFIX,888bbb555www.com
   - DOMAIN-SUFFIX,88lm05.com
   - DOMAIN-SUFFIX,88lm06.com
   - DOMAIN-SUFFIX,88lm07.com
@@ -311,6 +313,7 @@ payload:
   - DOMAIN-SUFFIX,costarg.com
   - DOMAIN-SUFFIX,cowm199.com
   - DOMAIN-SUFFIX,cqisam.xyz
+  - DOMAIN-SUFFIX,crbbhp.xyz
   - DOMAIN-SUFFIX,crjeymh.cn
   - DOMAIN-SUFFIX,ctlrarz.xyz
   - DOMAIN-SUFFIX,ctmrso.xyz
@@ -322,6 +325,7 @@ payload:
   - DOMAIN-SUFFIX,cwssfg632.shop
   - DOMAIN-SUFFIX,cxlvlbx.xyz
   - DOMAIN-SUFFIX,cyuwkbf.top
+  - DOMAIN-SUFFIX,czxvgod.xyz
   - DOMAIN-SUFFIX,d3g4a.cyou
   - DOMAIN-SUFFIX,damiul.icu
   - DOMAIN-SUFFIX,dataryon.com
@@ -394,6 +398,7 @@ payload:
   - DOMAIN-SUFFIX,fpjjjh.xyz
   - DOMAIN-SUFFIX,fpvdrzx.xyz
   - DOMAIN-SUFFIX,fqbjzj.xyz
+  - DOMAIN-SUFFIX,fqghykp.cn
   - DOMAIN-SUFFIX,frtnqps358.shop
   - DOMAIN-SUFFIX,frtnqpw837.shop
   - DOMAIN-SUFFIX,fvpboxu.xyz
@@ -417,6 +422,7 @@ payload:
   - DOMAIN-SUFFIX,gueikw.xyz
   - DOMAIN-SUFFIX,guwohvw.icu
   - DOMAIN-SUFFIX,gvbta.icu
+  - DOMAIN-SUFFIX,gxihcq.xyz
   - DOMAIN-SUFFIX,ha723.icu
   - DOMAIN-SUFFIX,halct.cn
   - DOMAIN-SUFFIX,hbjolp.xyz
@@ -463,6 +469,7 @@ payload:
   - DOMAIN-SUFFIX,ivbgpax.cn
   - DOMAIN-SUFFIX,ivnrrkx.cn
   - DOMAIN-SUFFIX,iykig.cn
+  - DOMAIN-SUFFIX,iyuwkbo.top
   - DOMAIN-SUFFIX,izalflh.cn
   - DOMAIN-SUFFIX,izmiua.xyz
   - DOMAIN-SUFFIX,jbmfldt.cn
@@ -471,6 +478,7 @@ payload:
   - DOMAIN-SUFFIX,jgblvt.xyz
   - DOMAIN-SUFFIX,jgmywh.icu
   - DOMAIN-SUFFIX,jioed.cyou
+  - DOMAIN-SUFFIX,jmesxbe.icu
   - DOMAIN-SUFFIX,jnalzla.top
   - DOMAIN-SUFFIX,jnifdlaa.top
   - DOMAIN-SUFFIX,jozbun.icu
@@ -478,6 +486,7 @@ payload:
   - DOMAIN-SUFFIX,jqpejp.xyz
   - DOMAIN-SUFFIX,js131.cn
   - DOMAIN-SUFFIX,jtyusia.top
+  - DOMAIN-SUFFIX,jtzdld.xyz
   - DOMAIN-SUFFIX,jubnpx.xyz
   - DOMAIN-SUFFIX,justapp.top
   - DOMAIN-SUFFIX,jvkqkzu.cn
@@ -734,6 +743,7 @@ payload:
   - DOMAIN-SUFFIX,tqvnzj.xyz
   - DOMAIN-SUFFIX,tsrvrr.xyz
   - DOMAIN-SUFFIX,tu2024020388.com
+  - DOMAIN-SUFFIX,tuky889900.com
   - DOMAIN-SUFFIX,tyodot.icu
   - DOMAIN-SUFFIX,tyzfoej.cn
   - DOMAIN-SUFFIX,u7u9.com
@@ -849,16 +859,10 @@ payload:
   - DOMAIN-SUFFIX,zfzys.top
   - DOMAIN-SUFFIX,zhaweifeng.com
   - DOMAIN-SUFFIX,zhihucloud.xyz
-  - DOMAIN-SUFFIX,fqghykp.cn
-  - DOMAIN-SUFFIX,iyuwkbo.top
-  - DOMAIN-SUFFIX,gxihcq.xyz
-  - DOMAIN-SUFFIX,czxvgod.xyz
-  - DOMAIN-SUFFIX,jtzdld.xyz
-  - DOMAIN-SUFFIX,crbbhp.xyz
-  - DOMAIN-SUFFIX,jmesxbe.icu
-  - DOMAIN-SUFFIX,777bbb777www.com
-  - DOMAIN-SUFFIX,888bbb555www.com
-  - DOMAIN-SUFFIX,tuky889900.com
+  - DOMAIN-SUFFIX,hspdiom.cn
+  - DOMAIN-SUFFIX,sjgsgy.xyz
+  - DOMAIN-SUFFIX,cfugrnc.icu
+  - DOMAIN-SUFFIX,jdbeht.xyz
   - DOMAIN-SUFFIX,zhnnaxe.xyz
   - DOMAIN-SUFFIX,zjrtxt.xyz
   - DOMAIN-SUFFIX,znhlxvb.xyz
