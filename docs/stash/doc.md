@@ -82,7 +82,6 @@ proxy-providers:
 
 ### 3. 更新 **GeoIP数据库**
 
-!> 如使用`Stash_lite.yaml`配置，需**跳过此步骤**，或使用**完整地区并包含单独分类**的数据库
 
 * 点击底部工具栏 **设置** ，点击配置模块中的 **更多设置**
 * 在 **GEOIP数据库** 模块中的URL填入以下地址 ，并更新
@@ -91,6 +90,14 @@ proxy-providers:
 
 ```
 https://github.com/Masaiki/GeoIP2-CN/raw/release/Country.mmdb
+```
+
+!> 如使用`Stash_lite.yaml`配置，需使用下方的数据库
+
+ⓘ  [MetaCubeX](https://github.com/MetaCubeX/meta-rules-dat)：
+
+```
+https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb
 ```
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Stash/Photo/s5.PNG" width="600">
