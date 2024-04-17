@@ -1,4 +1,4 @@
-# 2024-04-7 20:10
+# 2024-04-17 22:10
 
 # > 0-9
 
@@ -254,6 +254,7 @@ DOMAIN-SUFFIX,unsplash.com
 
 # > V
 DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,v2ex.co
 DOMAIN-SUFFIX,venturebeat.com
 DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,viber.com
