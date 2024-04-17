@@ -6,7 +6,7 @@
 #
 # Egern Version ≥ 1.16.0
 #
-# 最后更新时间: 2024-4-17 20:15
+# 最后更新时间: 2024-4-17 22:00
 #
 # ================
 
@@ -130,7 +130,6 @@ policy_groups:
     policies:
     - 手动选择
     flatten: true
-    filter: ^(?=.*(.*))(?!.*((?i)邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|到期|过期|已用|联系|邮箱|工单|群|贩卖|通知|倒卖|防止|国内|🎮|(\b(GAME|USE|USED|TOTAL|EXPIRE|EMAIL|Panel)\d{0,2}\b|(\d{4}-\d{2}-\d{2}|\dG)))).*$
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png
 - select:
     name: 哔哩哔哩
@@ -155,7 +154,7 @@ policy_groups:
     policies:
     - 手动选择
     flatten: true
-    filter: ^(?=.*((?i)🇭🇰|香港|(\b(HK|Hong)\b)))(?!.*((?i)回国|校园|游戏|(\b(GAME)\b))).*$
+    filter: (?i)🇭🇰|香港|(\b(HK|Hong)\b)
     tolerance: 50
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
 - auto_test:
@@ -163,7 +162,7 @@ policy_groups:
     policies:
     - 手动选择
     flatten: true
-    filter: ^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|United States)\b)))(?!.*((?i)回国|校园|游戏|(\b(GAME)\b))).*$
+    filter: (?i)🇺🇸|美国|洛杉矶|圣何塞|(\b(US|United States)\b)
     tolerance: 50
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
 - auto_test:
@@ -171,7 +170,7 @@ policy_groups:
     policies:
     - 手动选择
     flatten: true
-    filter: ^(?=.*((?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)))(?!.*((?i)回国|校园|游戏|(\b(GAME)\b))).*$
+    filter: (?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)
     tolerance: 50
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
 - auto_test:
@@ -179,7 +178,7 @@ policy_groups:
     policies:
     - 手动选择
     flatten: true
-    filter: ^(?=.*((?i)🇯🇵|日本|川日|东京|大阪|泉日|埼玉|(\b(JP|Japan)\b)))(?!.*((?i)回国|校园|游戏|(\b(GAME)\b))).*$
+    filter: (?i)🇯🇵|日本|东京|(\b(JP|Japan)\b)
     tolerance: 50
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
 - auto_test:
@@ -187,7 +186,7 @@ policy_groups:
     policies:
     - 手动选择
     flatten: true
-    filter: ^(?=.*((?i)🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)))(?!.*((?i)回国|校园|游戏|(\b(GAME)\b))).*$
+    filter: (?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)
     tolerance: 50
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png
 
