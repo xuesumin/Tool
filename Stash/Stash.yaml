@@ -4,7 +4,7 @@
 #
 # Stash Version ≥ 2.6.0 
 #
-# 最后更新时间: 2024-4-17 19:30
+# 最后更新时间: 2024-4-17 21:17
 #
 # ================
 
@@ -105,7 +105,7 @@ rule-providers:
   Epic: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Epic.list}
 
   # AI平台
- AI: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/AI.list}
+  AI: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/AI.list}
 
   # Emby
   Emby: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Emby.list}
