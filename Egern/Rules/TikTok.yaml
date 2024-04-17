@@ -1,17 +1,66 @@
 no_resolve: true
 domain_set:
 domain_suffix_set:
+- bytedapm.com
+- bytefcdn-oversea.com
+- bytefcdn-ttpeu.com
+- bytegecko-i18n.com
+- bytegecko.com
+- byteglb.com
+- byteimg.com
+- byteigtm.com
 - byteoversea.com
+- byteoversea.net
+- bytetcdn.com
+- byteicdn.com
+- capcut.com
 - ibytedtos.com
+- ibyteimg.com
 - ipstatp.com
+- isnssdk.com
 - muscdn.com
+- musemuse.cn
 - musical.ly
+- pstatp.com
+- sgpstatp.com
+- sgsnssdk.com
+- snssdk.com
 - tik-tokapi.com
 - tiktok.com
+- tiktok.in
+- tiktokcdn-eu.com
+- tiktokcdn-eu.net
+- tiktokcdn-in.com
+- tiktokcdn-us.com
 - tiktokcdn.com
+- tiktokd.net
+- tiktokd.org
+- tiktokglobalshop.com
+- tiktokglobalshopv.com
+- tiktokmusic.app
+- tiktokshop.com
+- tiktokstaticb.com
 - tiktokv.com
+- tiktokv.eu
+- tiktokv.us
+- tiktokw.us
+- tlivecdn.com
+- ttapis.com
+- ttdns2.com
+- ttlivecdn.com
+- ttoversea.net
+- ttoverseaus.net
+- ttwstatic.com
 domain_keyword_set:
+- musical.ly
+- tiktok
+- tiktokv
 - tiktokcdn
+- ttlivecdn
+- -default.akamaized.net
+- -effectcdn.byteeffecttos-g.com
+- -tiktokcdn-com.akamaized.net
+- -pkgcdn.pitaya-clientai.com
 domain_regex_set:
 ip_cidr_set:
 ip_cidr6_set:
