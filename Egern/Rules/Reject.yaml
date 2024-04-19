@@ -695,6 +695,7 @@ domain_suffix_set:
 - ali-ad.a.yximgs.com
 - alienskins.cn
 - alitui.weibo.com
+- alog.umeng.com
 - amazon-adsystem.com
 - amdcopen.m.taobao.com
 - amoad.com
@@ -714,6 +715,7 @@ domain_suffix_set:
 - annabelleabe.com
 - anydeskchina.cn
 - anythinktech.com
+- apd-pcdnwxlogin.teg.tencent-cloud.net
 - api-access.pangolin-sdk-toutiao.com
 - api-access.pangolin-sdk-toutiao1.com
 - api-access.pangolin-sdk-toutiao2.com
@@ -834,6 +836,8 @@ domain_suffix_set:
 - commdata.v.qq.com
 - comscore.com
 - config.chsmarttv.com
+- conn-service-cn-04.allawntech.com
+- conn-service-cn-05.allawntech.com
 - coreldrawchina.com
 - cpatrk.net
 - cpmstar.com
@@ -868,7 +872,6 @@ domain_suffix_set:
 - data.mistat.india.xiaomi.com
 - data.mistat.rus.xiaomi.com
 - data.mistat.xiaomi.com
-- dataflow.biliapi.com
 - ddmax20.xyz
 - deliver.ifeng.com
 - designslicensedeep.com
@@ -980,6 +983,7 @@ domain_suffix_set:
 - grs.platform.dbankcloud.ru
 - gscxs.cn
 - gsjln04hd.com
+- gslb.hpplay.cn
 - gtlpaj.com
 - guitarpro.cc
 - gz-data.com
@@ -1072,6 +1076,7 @@ domain_suffix_set:
 - ishop789.com
 - iskyworker.com
 - itnuzleafan.com
+- itv2-up.openspeech.cn
 - ixav-cse.avlyun.com
 - iycwl.com
 - iyfbodn.com
@@ -1142,6 +1147,7 @@ domain_suffix_set:
 - log-upload.mihoyo.com
 - log.ad.xiaomi.com
 - log.aispeech.com
+- log.amemv.com
 - log.appstore3.huan.tv
 - log.avlyun.com
 - log.avlyun.sec.intl.miui.com
@@ -1189,6 +1195,7 @@ domain_suffix_set:
 - mc.yandex.ru
 - mc7clurd09pla4nrtat7ion.com
 - mdfull.com
+- mdp-appconf-in.heytapdl.com
 - mdp-usertrace-cn.heytapmobi.com
 - measurementapi.com
 - media.aso1.net
@@ -1206,6 +1213,7 @@ domain_suffix_set:
 - miaozhen.com
 - miav-cse.avlyun.com
 - microad.jp
+- mime.baidu.com
 - mindmanager.cc
 - mindmanager.cn
 - mindmapper.cc
@@ -1334,6 +1342,7 @@ domain_suffix_set:
 - pardot.com
 - parrable.com
 - passwordrecovery.cn
+- pay.sboot.cn
 - pc.stgowan.com
 - pdbarea.com
 - pdfexpert.cc
@@ -1438,6 +1447,7 @@ domain_suffix_set:
 - rms-drcn.platform.dbankcloud.cn
 - roi.soulapp.cn
 - rotaban.ru
+- rp.hpplay.cn
 - rpt.gdt.qq.com
 - rqmob.com
 - rtb.voiceads.cn
@@ -1465,12 +1475,14 @@ domain_suffix_set:
 - saymedia.com
 - scdown.qq.com
 - scorecardresearch.com
+- scs.openspeech.cn
 - sdk-ab-config.qquanquan.com
 - sdk-cache.video.ptqy.gitv.tv
 - sdk.beizi.biz
 - sdk.e.qq.com
 - sdk.hzsanjiaomao.com
 - sdk.mobads.adwangmai.com
+- sdkauth.hpplay.cn
 - sdkclick.com
 - sdkconf.avlyun.com
 - sdkconfig.ad.intl.xiaomi.com
@@ -1540,6 +1552,7 @@ domain_suffix_set:
 - smac-ad.com
 - smadex.com
 - smart-c.jp
+- smart-tv.cn
 - smartad.10010.com
 - smartadserver.com
 - smartclip.net
@@ -1598,6 +1611,7 @@ domain_suffix_set:
 - t-dsp.pinduoduo.com
 - t.l.qq.com
 - t.track.ad.xiaomi.com
+- t002.ottcn.com
 - t1.a.market.xiaomi.com
 - t2.a.market.xiaomi.com
 - t3.a.market.xiaomi.com
@@ -1702,6 +1716,7 @@ domain_suffix_set:
 - tuitiger.com
 - turn.com
 - tutoads.tv
+- tvapp.hpplay.cn
 - tvuser-ch.cedock.com
 - tx-ad.a.yximgs.com
 - tx-kmpaudio.pull.yximgs.com
@@ -1774,6 +1789,7 @@ domain_suffix_set:
 - videozhishi.com
 - vidoomy.com
 - viewdeos.com
+- virusinfo-cloudscan-cn.heytapmobi.com
 - vlive.qqvideo.tc.qq.com
 - vm5apis.com
 - voiceads.cn

@@ -741,6 +741,7 @@ HOST-SUFFIX,algovid.com,REJECT
 HOST-SUFFIX,ali-ad.a.yximgs.com,REJECT
 HOST-SUFFIX,alienskins.cn,REJECT
 HOST-SUFFIX,alitui.weibo.com,REJECT
+HOST-SUFFIX,alog.umeng.com,REJECT
 HOST-SUFFIX,amazon-adsystem.com,REJECT
 HOST-SUFFIX,amdcopen.m.taobao.com,REJECT
 HOST-SUFFIX,amoad.com,REJECT
@@ -760,6 +761,7 @@ HOST-SUFFIX,analyze.lemurbrowser.com,REJECT
 HOST-SUFFIX,annabelleabe.com,REJECT
 HOST-SUFFIX,anydeskchina.cn,REJECT
 HOST-SUFFIX,anythinktech.com,REJECT
+HOST-SUFFIX,apd-pcdnwxlogin.teg.tencent-cloud.net,REJECT
 HOST-SUFFIX,api-access.pangolin-sdk-toutiao.com,REJECT
 HOST-SUFFIX,api-access.pangolin-sdk-toutiao1.com,REJECT
 HOST-SUFFIX,api-access.pangolin-sdk-toutiao2.com,REJECT
@@ -880,6 +882,8 @@ HOST-SUFFIX,collect.kugou.com,REJECT
 HOST-SUFFIX,commdata.v.qq.com,REJECT
 HOST-SUFFIX,comscore.com,REJECT
 HOST-SUFFIX,config.chsmarttv.com,REJECT
+HOST-SUFFIX,conn-service-cn-04.allawntech.com,REJECT
+HOST-SUFFIX,conn-service-cn-05.allawntech.com,REJECT
 HOST-SUFFIX,coreldrawchina.com,REJECT
 HOST-SUFFIX,cpatrk.net,REJECT
 HOST-SUFFIX,cpmstar.com,REJECT
@@ -914,7 +918,6 @@ HOST-SUFFIX,data.chsmarttv.com,REJECT
 HOST-SUFFIX,data.mistat.india.xiaomi.com,REJECT
 HOST-SUFFIX,data.mistat.rus.xiaomi.com,REJECT
 HOST-SUFFIX,data.mistat.xiaomi.com,REJECT
-HOST-SUFFIX,dataflow.biliapi.com,REJECT
 HOST-SUFFIX,ddmax20.xyz,REJECT
 HOST-SUFFIX,deliver.ifeng.com,REJECT
 HOST-SUFFIX,designslicensedeep.com,REJECT
@@ -1026,6 +1029,7 @@ HOST-SUFFIX,grs.hicloud.com,REJECT
 HOST-SUFFIX,grs.platform.dbankcloud.ru,REJECT
 HOST-SUFFIX,gscxs.cn,REJECT
 HOST-SUFFIX,gsjln04hd.com,REJECT
+HOST-SUFFIX,gslb.hpplay.cn,REJECT
 HOST-SUFFIX,gtlpaj.com,REJECT
 HOST-SUFFIX,guitarpro.cc,REJECT
 HOST-SUFFIX,gz-data.com,REJECT
@@ -1118,6 +1122,7 @@ HOST-SUFFIX,is.snssdk.com,REJECT
 HOST-SUFFIX,ishop789.com,REJECT
 HOST-SUFFIX,iskyworker.com,REJECT
 HOST-SUFFIX,itnuzleafan.com,REJECT
+HOST-SUFFIX,itv2-up.openspeech.cn,REJECT
 HOST-SUFFIX,ixav-cse.avlyun.com,REJECT
 HOST-SUFFIX,iycwl.com,REJECT
 HOST-SUFFIX,iyfbodn.com,REJECT
@@ -1188,6 +1193,7 @@ HOST-SUFFIX,log-upload-os.hoyoverse.com,REJECT
 HOST-SUFFIX,log-upload.mihoyo.com,REJECT
 HOST-SUFFIX,log.ad.xiaomi.com,REJECT
 HOST-SUFFIX,log.aispeech.com,REJECT
+HOST-SUFFIX,log.amemv.com,REJECT
 HOST-SUFFIX,log.appstore3.huan.tv,REJECT
 HOST-SUFFIX,log.avlyun.com,REJECT
 HOST-SUFFIX,log.avlyun.sec.intl.miui.com,REJECT
@@ -1235,6 +1241,7 @@ HOST-SUFFIX,mazu.m.qq.com,REJECT
 HOST-SUFFIX,mc.yandex.ru,REJECT
 HOST-SUFFIX,mc7clurd09pla4nrtat7ion.com,REJECT
 HOST-SUFFIX,mdfull.com,REJECT
+HOST-SUFFIX,mdp-appconf-in.heytapdl.com,REJECT
 HOST-SUFFIX,mdp-usertrace-cn.heytapmobi.com,REJECT
 HOST-SUFFIX,measurementapi.com,REJECT
 HOST-SUFFIX,media.aso1.net,REJECT
@@ -1252,6 +1259,7 @@ HOST-SUFFIX,mi.gdt.qq.com,REJECT
 HOST-SUFFIX,miaozhen.com,REJECT
 HOST-SUFFIX,miav-cse.avlyun.com,REJECT
 HOST-SUFFIX,microad.jp,REJECT
+HOST-SUFFIX,mime.baidu.com,REJECT
 HOST-SUFFIX,mindmanager.cc,REJECT
 HOST-SUFFIX,mindmanager.cn,REJECT
 HOST-SUFFIX,mindmapper.cc,REJECT
@@ -1380,6 +1388,7 @@ HOST-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 HOST-SUFFIX,pardot.com,REJECT
 HOST-SUFFIX,parrable.com,REJECT
 HOST-SUFFIX,passwordrecovery.cn,REJECT
+HOST-SUFFIX,pay.sboot.cn,REJECT
 HOST-SUFFIX,pc.stgowan.com,REJECT
 HOST-SUFFIX,pdbarea.com,REJECT
 HOST-SUFFIX,pdfexpert.cc,REJECT
@@ -1484,6 +1493,7 @@ HOST-SUFFIX,rlcdn.com,REJECT
 HOST-SUFFIX,rms-drcn.platform.dbankcloud.cn,REJECT
 HOST-SUFFIX,roi.soulapp.cn,REJECT
 HOST-SUFFIX,rotaban.ru,REJECT
+HOST-SUFFIX,rp.hpplay.cn,REJECT
 HOST-SUFFIX,rpt.gdt.qq.com,REJECT
 HOST-SUFFIX,rqmob.com,REJECT
 HOST-SUFFIX,rtb.voiceads.cn,REJECT
@@ -1511,12 +1521,14 @@ HOST-SUFFIX,saveu5-normal-lq.zijieapi.com,REJECT
 HOST-SUFFIX,saymedia.com,REJECT
 HOST-SUFFIX,scdown.qq.com,REJECT
 HOST-SUFFIX,scorecardresearch.com,REJECT
+HOST-SUFFIX,scs.openspeech.cn,REJECT
 HOST-SUFFIX,sdk-ab-config.qquanquan.com,REJECT
 HOST-SUFFIX,sdk-cache.video.ptqy.gitv.tv,REJECT
 HOST-SUFFIX,sdk.beizi.biz,REJECT
 HOST-SUFFIX,sdk.e.qq.com,REJECT
 HOST-SUFFIX,sdk.hzsanjiaomao.com,REJECT
 HOST-SUFFIX,sdk.mobads.adwangmai.com,REJECT
+HOST-SUFFIX,sdkauth.hpplay.cn,REJECT
 HOST-SUFFIX,sdkclick.com,REJECT
 HOST-SUFFIX,sdkconf.avlyun.com,REJECT
 HOST-SUFFIX,sdkconfig.ad.intl.xiaomi.com,REJECT
@@ -1586,6 +1598,7 @@ HOST-SUFFIX,smaato.net,REJECT
 HOST-SUFFIX,smac-ad.com,REJECT
 HOST-SUFFIX,smadex.com,REJECT
 HOST-SUFFIX,smart-c.jp,REJECT
+HOST-SUFFIX,smart-tv.cn,REJECT
 HOST-SUFFIX,smartad.10010.com,REJECT
 HOST-SUFFIX,smartadserver.com,REJECT
 HOST-SUFFIX,smartclip.net,REJECT
@@ -1644,6 +1657,7 @@ HOST-SUFFIX,synergy-e.com,REJECT
 HOST-SUFFIX,t-dsp.pinduoduo.com,REJECT
 HOST-SUFFIX,t.l.qq.com,REJECT
 HOST-SUFFIX,t.track.ad.xiaomi.com,REJECT
+HOST-SUFFIX,t002.ottcn.com,REJECT
 HOST-SUFFIX,t1.a.market.xiaomi.com,REJECT
 HOST-SUFFIX,t2.a.market.xiaomi.com,REJECT
 HOST-SUFFIX,t3.a.market.xiaomi.com,REJECT
@@ -1748,6 +1762,7 @@ HOST-SUFFIX,tuipenguin.com,REJECT
 HOST-SUFFIX,tuitiger.com,REJECT
 HOST-SUFFIX,turn.com,REJECT
 HOST-SUFFIX,tutoads.tv,REJECT
+HOST-SUFFIX,tvapp.hpplay.cn,REJECT
 HOST-SUFFIX,tvuser-ch.cedock.com,REJECT
 HOST-SUFFIX,tx-ad.a.yximgs.com,REJECT
 HOST-SUFFIX,tx-kmpaudio.pull.yximgs.com,REJECT
@@ -1820,6 +1835,7 @@ HOST-SUFFIX,videohub.tv,REJECT
 HOST-SUFFIX,videozhishi.com,REJECT
 HOST-SUFFIX,vidoomy.com,REJECT
 HOST-SUFFIX,viewdeos.com,REJECT
+HOST-SUFFIX,virusinfo-cloudscan-cn.heytapmobi.com,REJECT
 HOST-SUFFIX,vlive.qqvideo.tc.qq.com,REJECT
 HOST-SUFFIX,vm5apis.com,REJECT
 HOST-SUFFIX,voiceads.cn,REJECT
