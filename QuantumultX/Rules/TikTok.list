@@ -1,5 +1,5 @@
 # TikTok by 可莉
-# 2024-04-19 22:08:41
+# 2024-04-19 23:12:49
 HOST,api.snapkit.com,PROXY
 HOST,api2-16-h2.musical.ly.edgekey.net,PROXY
 HOST,bytedance.map.fastly.net,PROXY
@@ -9,7 +9,6 @@ HOST,cdn-tos-va.byteintl.net,PROXY
 HOST,cocacola.co.jp,PROXY
 HOST,courses.snapsolve.com,PROXY
 HOST,engagements.appsflyer.com,PROXY
-HOST,lf0-cdn-tos.tiktok-usts.net,PROXY
 HOST,lf1-ttcdn-tos.pstatp.com,PROXY
 HOST,lf16-campaign.ttlstatic.com,PROXY
 HOST,lf16-csp.oecstatic.com,PROXY
@@ -18,7 +17,6 @@ HOST,lf16-scmcdn.oecstatic.com,PROXY
 HOST,lf19-csp.oecstatic.com,PROXY
 HOST,lf19-pkgcdn.pitaya-clientai.com,PROXY
 HOST,lf19-scmcdn.oecstatic.com,PROXY
-HOST,mobile.ttadsmanager.com,PROXY
 HOST,musically-alternate.app.link,PROXY
 HOST,musically.app.link,PROXY
 HOST,p1-tt-ipv6.byteimg.com,PROXY
@@ -27,16 +25,10 @@ HOST,p16-tiktokcdn-com.akamaized.net,PROXY
 HOST,p26-tt.byteimg.com,PROXY
 HOST,p3-tt-ipv6.byteimg.com,PROXY
 HOST,p9-tt.byteimg.com,PROXY
-HOST,pull-cmaf-f16-gcp01.ttlivecdn.com,PROXY
-HOST,pull-cmaf-f16-sg01.ttlivecdn.com,PROXY
-HOST,pull-cmaf-f16-va01.ttlivecdn.com,PROXY
 HOST,pull-f3-hs.pstatp.com,PROXY
-HOST,pull-f5-gcp01.ttlivecdn.com,PROXY
 HOST,pull-f5-hs.flive.pstatp.com,PROXY
 HOST,pull-f5-hs.pstatp.com,PROXY
 HOST,pull-f5-mus.pstatp.com,PROXY
-HOST,pull-f5-sg01.ttlivecdn.com,PROXY
-HOST,pull-f5-va01.ttlivecdn.com,PROXY
 HOST,pull-flv-f1-hs.pstatp.com,PROXY
 HOST,pull-flv-f6-hs.pstatp.com,PROXY
 HOST,pull-flv-l1-hs.pstatp.com,PROXY
@@ -44,37 +36,24 @@ HOST,pull-flv-l1-mus.pstatp.com,PROXY
 HOST,pull-flv-l6-hs.pstatp.com,PROXY
 HOST,pull-hls-l1-mus.pstatp.com,PROXY
 HOST,pull-l3-hs.pstatp.com,PROXY
-HOST,pull-q5-sg01.ttlivecdn.com,PROXY
-HOST,pull-q5-va01.ttlivecdn.com,PROXY
 HOST,pull-rtmp-f1-hs.pstatp.com,PROXY
 HOST,pull-rtmp-f6-hs.pstatp.com,PROXY
 HOST,pull-rtmp-l1-hs.pstatp.com,PROXY
 HOST,pull-rtmp-l1-mus.pstatp.com,PROXY
 HOST,pull-rtmp-l6-hs.pstatp.com,PROXY
-HOST,pull-w5-sg01.ttlivecdn.com,PROXY
-HOST,pull-w5-va01.ttlivecdn.com,PROXY
 HOST,roovza-launches.appsflyersdk.com,PROXY
-HOST,s0.ipstatp.com,PROXY
-HOST,s1.ipstatp.com,PROXY
 HOST,sessions.bugsnag.com,PROXY
 HOST,sf1-ttcdn-tos.pstatp.com,PROXY
-HOST,sf16-ttcdn-tos.ipstatp.com,PROXY
 HOST,sf6-ttcdn-tos.pstatp.com,PROXY
-HOST,tiktok-lb-texas.useast5.byteoversea.net.byteigtm.com,PROXY
 HOST,tiktokcdn-us.com.atomile.com,PROXY
 HOST,tiktokcdn-us.com.c.worldfcdn2.com,PROXY
 HOST,tiktokcdn.com.atomile.com,PROXY
-HOST,tiktokcdn.com.c.bytefcdn-oversea.com,PROXY
 HOST,tiktokcdn.com.c.bytefcdn-ttpeu.com,PROXY
-HOST,tiktokcdn.com.c.bytetcdn.com,PROXY
 HOST,tiktokcdn.com.c.worldfcdn.com,PROXY
-HOST,tiktokcdn.com.qlivecdn.com,PROXY
 HOST,tiktokcdn.com.rocket-cdn.com,PROXY
 HOST,tiktokcdn.com.tlivepush.com,PROXY
-HOST,tiktokv.com.c.bytefcdn-oversea.com,PROXY
 HOST,tiktokv.com.c.worldfcdn.com,PROXY
 HOST,tiktokv.com.c.worldfcdn2.com,PROXY
-HOST,ttlivecdn.com.c.bytefcdn-oversea.com,PROXY
 HOST,ttlivecdn.com.c.worldfcdn.com,PROXY
 HOST,video.h1.bytedance.map.fastly.net,PROXY
 HOST-SUFFIX,bytedance.com,PROXY
@@ -87,6 +66,7 @@ HOST-SUFFIX,byteglb.com,PROXY
 HOST-SUFFIX,byteicdn.com,PROXY
 HOST-SUFFIX,byteigtm.com,PROXY
 HOST-SUFFIX,byteintl.com,PROXY
+HOST-SUFFIX,byteintl.net,PROXY
 HOST-SUFFIX,byteoversea.com,PROXY
 HOST-SUFFIX,byteoversea.net,PROXY
 HOST-SUFFIX,bytetcdn.com,PROXY
@@ -100,9 +80,8 @@ HOST-SUFFIX,musemuse.cn,PROXY
 HOST-SUFFIX,musical.ly,PROXY
 HOST-SUFFIX,sgpstatp.com,PROXY
 HOST-SUFFIX,sgsnssdk.com,PROXY
-# HOST-SUFFIX,snssdk.com
-# HOST-SUFFIX,surveymonkey.com
 HOST-SUFFIX,tik-tokapi.com,PROXY
+HOST-SUFFIX,tiktok-usts.net,PROXY
 HOST-SUFFIX,tiktok.com,PROXY
 HOST-SUFFIX,tiktok.in,PROXY
 HOST-SUFFIX,tiktokcdn-eu.com,PROXY
@@ -122,6 +101,8 @@ HOST-SUFFIX,tiktokv.eu,PROXY
 HOST-SUFFIX,tiktokv.us,PROXY
 HOST-SUFFIX,tiktokw.us,PROXY
 HOST-SUFFIX,tlivecdn.com,PROXY
+HOST-SUFFIX,tlivepush.com,PROXY
+HOST-SUFFIX,ttadsmanager.com,PROXY
 HOST-SUFFIX,ttapis.com,PROXY
 HOST-SUFFIX,ttdns2.com,PROXY
 HOST-SUFFIX,ttlivecdn.com,PROXY
