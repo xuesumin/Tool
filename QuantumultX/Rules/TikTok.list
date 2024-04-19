@@ -1,5 +1,7 @@
 # TikTok by 可莉
-# 2024-04-19 23:12:49
+# 2024-04-20 00:08:45
+#AND,((NOT,(GEOIP,CN)),(HOST,libra-sg.tiktokv.com))
+#AND,((NOT,(GEOIP,CN)),(HOST,pitaya.bytedance.com))
 HOST,api.snapkit.com,PROXY
 HOST,api2-16-h2.musical.ly.edgekey.net,PROXY
 HOST,bytedance.map.fastly.net,PROXY
