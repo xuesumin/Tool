@@ -4,7 +4,7 @@
 #
 # Clash Verg Rev Version ≥ 1.5.6
 #
-# 最后更新时间: 2024-04-17 22:00
+# 最后更新时间: 2024-04-21 16:10
 #
 # ================
 
@@ -80,17 +80,17 @@ dns:
   nameserver: [quic://223.5.5.5, quic://223.6.6.6, https://1.12.12.12/dns-query, https://120.53.53.53/dns-query]                     
     
 # 策略组引用相关参数
-pg: &pg {type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点,  台湾节点, 自动选择, 故障转移, DIRECT]}
+pg: &pg {type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
 # 订阅更新和延迟测试相关参数
-p: &p {type: http, interval: 86400, health-check: {enable: true, url: http://1.1.1.1/generate_204, interval: 1800}}
+p: &p {type: http, interval: 86400, health-check: {enable: true, url: http://latency-test.skk.moe/endpoint, interval: 1800}}
 # 自动选择策略组：选取延迟最低节点
-auto: &auto {type: url-test, lazy: true, url: http://1.1.1.1/generate_204, interval: 900, use: [Subscribe1, Subscribe2]}
+auto: &auto {type: url-test, lazy: true, url: http://latency-test.skk.moe/endpoint, interval: 300, use: [Subscribe1, Subscribe2]}
 # 手动选择策略组：手动选择想要的节点/策略组
 select: &select {type: select, use: [Subscribe1, Subscribe2]}
 # 故障回退策略组：策略组将按顺序选择你列表中第一个可用的节点
-fallback: &fallback {type: fallback, lazy: true, url: http://1.1.1.1/generate_204, interval: 900, use: [Subscribe1, Subscribe2]}
+fallback: &fallback {type: fallback, lazy: true, url: http://latency-test.skk.moe/endpoint, interval: 300, use: [Subscribe1, Subscribe2]}
 # 负载均衡策略组：不同的请求将使用不同的代理节点
-load-balance: &load-balance {type: load-balance, lazy: true, url: http://1.1.1.1/generate_204, interval: 900, use: [Subscribe1, Subscribe2]}
+load-balance: &load-balance {type: load-balance, lazy: true, strategy: consistent-hashing, url: http://latency-test.skk.moe/endpoint, interval: 300, use: [Subscribe]}
 # classical规则相关
 c: &c {type: http, behavior: classical, interval: 86400}
 # domain规则相关
@@ -111,8 +111,7 @@ proxy-groups:
 
   #分流分组
 
-  - {name: 手动切换, type: select, use: [Subscribe1, Subscribe2], proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT], icon: https://github.com/clash-verge-rev/clash-verge-rev/raw/main/src/assets/image/logo.png}
-
+  - {name: 手动切换, type: select, use: [Subscribe1, Subscribe2], proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT], icon: https://github.com/clash-verge-rev/clash-verge-rev/raw/main/src/assets/image/logo.png}
 
   - {name: 国外网站, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png}
 
@@ -153,6 +152,8 @@ proxy-groups:
   - {name: 日本节点, <<: *auto, filter: "(?i)🇯🇵|日本|东京|(\b(JP|Japan)\b)", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png}
 
   - {name: 台湾节点, <<: *auto, filter: "(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png}
+
+  - {name: 欧洲节点, <<: *auto, filter: "🇬🇧|🇫🇷|🇳🇱|🇮🇸|🇩🇪|🇺🇦|🇨🇭|🇪🇺", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/European_Union.png}
 
 rule-providers:
 
