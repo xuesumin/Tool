@@ -1,4 +1,4 @@
-# 2024-04-21 16:05
+# 2024-04-21 16:30
 name: Fork & Edit
 
 on:
@@ -610,7 +610,7 @@ jobs:
                    -e 's/,reject$//g' \
                    -e 's/,direct$//g' \
                    -e 's/,extended-matching$//g' \
-                   -e '/\(OR\|AND\|NOT\|PROCESS-NAME\),/ s/^/#/' \
+                   -e '/\(PROCESS-NAME\),/ s/^/#/' \
                    -e '/# 更新：/d' \
                    -e '/# AUTHOR:/d' \
                    -e '/# REPO:/d' \
