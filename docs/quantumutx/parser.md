@@ -30,7 +30,7 @@ eg:
 
 ```
 http://your-service-provider#emoji=1&tfo=1&in=香港+台湾
-``
+```
 
 - 本地资源片段引用, 请将参数如 `#in=xxx&out=yyy` 填入资源片段的第 1 行
 - 支持中文, "操作" 以下特殊字符时请先替换[URL-Encode](https://www.jyshare.com/front-end/695/)
