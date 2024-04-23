@@ -28,7 +28,9 @@ resource_parser_url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/maste
 
 eg:
 
-`http://your-service-provider#emoji=1&tfo=1&in=香港+台湾 `
+```
+http://your-service-provider#emoji=1&tfo=1&in=香港+台湾
+``
 
 - 本地资源片段引用, 请将参数如 `#in=xxx&out=yyy` 填入资源片段的第 1 行
 - 支持中文, "操作" 以下特殊字符时请先替换[URL-Encode](https://www.jyshare.com/front-end/695/)
@@ -70,14 +72,24 @@ eg:
   - `in`, `out` 中多参数(逻辑`或`)用 `+`, 逻辑`与`用 `.` 表示;
   - `in`/`out` 仅对「节点名」匹配生效
   - `regex`/`regout` 对节点的「完整信息」进行匹配(类型、端口、加密等);
-  - eg: `http://your-service-provider#in=🇺🇸&out=02&regout=\[home\]`：保留美国节点并排除02号节点，并使用正则排除带有`[home]`字段的节点：
+  - eg: 保留美国节点并排除02号节点，并使用正则排除带有`[home]`字段的节点
+
+```
+http://your-service-provider#in=🇺🇸&out=02&regout=\[home\]
+```
+
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/UI10-2.PNG" width="600">
 
 
 6.`rename` 重命名, `旧名@新名`, `前缀@`, `@后缀`, 用 `+` 连接多个参数;
   - 删除字段: `字段1.字段2☠️`, 想删除 `.` 时用 `\.` 替代
-  - eg: `http://your-service-provider#in=🇭🇰+🇸🇬&rename=Hong%20Kong@香港+0\.2☠️`：保留香港、新加坡节点，并替换 `Hong Kong` 为`香港`，并删除`0.2`的字段
+  - eg: 保留香港、新加坡节点，并替换 `Hong Kong` 为`香港`，并删除`0.2`的字段，保留美国节点并排除02号节点，并使用正则排除带有`[home]`字段的节点
+
+```
+http://your-service-provider#in=🇭🇰+🇸🇬&rename=Hong%20Kong@香港+0\.2☠️
+```
+
   - 默认 emoji 先生效, 如想调换顺序, 请用 rrname 参数
 
   <img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/UI10-3.PNG" width="600">
