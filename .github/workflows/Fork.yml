@@ -1,4 +1,4 @@
-# 22024-04-23 19:16
+# 22024-04-23 19:26
 name: Fork & Edit
 
 on:
@@ -354,6 +354,32 @@ jobs:
             echo "$file not found."
           fi
         done
+
+      # 追加规则
+    - name: Copy custom rules
+      run: |
+        if [ -f "Tool-repo/Clash/Rules/Reject.list" ] ; then
+          cat Tool-repo/Clash/Rules/AdGuardChinese.list >> Tool-repo/Clash/Rules/Reject.list
+        else
+          echo "$file not found."
+        fi
+
+      # 去重排序
+    - name: Remove duplicates and lines 
+      run: |
+        cd Tool-repo/Clash/Rules
+        shopt -s nullglob  # 避免没有匹配的文件时保留原始通配符
+        for file in Reject.list; do
+          if [ -f "$file" ]; then
+            sorted_file="sorted_${file}"
+            # 使用 grep 去掉包含 # 的行
+            grep -v '^\s*#' "$file" | grep -v '^\s*$' | sort | uniq > "$sorted_file"
+            mv "$sorted_file" "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+      shell: bash       
 
 ######
     - name: Download files to QuantumultX
