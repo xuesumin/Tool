@@ -143,7 +143,12 @@ http://your-service-provider#in=🇭🇰+🇸🇬&rename=Hong%20Kong@香港+0\.2
   <img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/UI10-5.PNG" width="600">
 
 2.`inhn`/`outhn`, `保留`/`删除` 主机名(`hostname`);
-  - eg: `http://your-rewrite-provider#out=baidu-index.js+baidu-zhidao.js&outhn=baidu`：禁用网页去广告中带有 "baidu-index.js" 及 "baidu-zhidao.js" 的 重写 及带有`baidu`的主机名
+  - eg: 禁用网页去广告中带有 "baidu-index.js" 及 "baidu-zhidao.js" 的 重写 及带有`baidu`的主机名
+
+```
+http://your-rewrite-provider#out=baidu-index.js+baidu-zhidao.js&outhn=baidu
+```
+
   <img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/UI10-4.PNG" width="600">
 
 3.`regex`/`regout`, 正则保留/删除, 请自行折腾正则表达式;
