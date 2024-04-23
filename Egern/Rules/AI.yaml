@@ -24,6 +24,7 @@ domain_suffix_set:
 - makersuite.google.com
 - generativeai.google
 - poe.com
+- meta.ai
 domain_keyword_set:
 - openai
 domain_regex_set:
