@@ -732,6 +732,7 @@ payload:
   - DOMAIN-SUFFIX,adxlog-adnet.vivo.com.cn
   - DOMAIN-SUFFIX,adxlog-adnet.vivo.com.cn.dsa.dnsv1.com.cn
   - DOMAIN-SUFFIX,adzerk.net
+  - DOMAIN-SUFFIX,affinitychina.cn
   - DOMAIN-SUFFIX,afs.googlesyndication.com
   - DOMAIN-SUFFIX,aiclk.com
   - DOMAIN-SUFFIX,airpr.com
@@ -1011,6 +1012,7 @@ payload:
   - DOMAIN-SUFFIX,go.mnaspm.com
   - DOMAIN-SUFFIX,go.myavlive.com
   - DOMAIN-SUFFIX,go2cloud.org
+  - DOMAIN-SUFFIX,goldwavechina.cn
   - DOMAIN-SUFFIX,google-analytics.com
   - DOMAIN-SUFFIX,googleadservices-cn.com
   - DOMAIN-SUFFIX,googleadservices.com
@@ -1248,6 +1250,7 @@ payload:
   - DOMAIN-SUFFIX,media.aso1.net
   - DOMAIN-SUFFIX,medialytics.com
   - DOMAIN-SUFFIX,mediav.com
+  - DOMAIN-SUFFIX,medproad.com
   - DOMAIN-SUFFIX,meetrics.com
   - DOMAIN-SUFFIX,meetrics.net
   - DOMAIN-SUFFIX,metok.sys.miui.com
@@ -1435,6 +1438,7 @@ payload:
   - DOMAIN-SUFFIX,proper.io
   - DOMAIN-SUFFIX,proxistore.com
   - DOMAIN-SUFFIX,proxy.advp.apple.com
+  - DOMAIN-SUFFIX,ps-chajian.com
   - DOMAIN-SUFFIX,pu0glv.cn
   - DOMAIN-SUFFIX,pub2srv.com
   - DOMAIN-SUFFIX,public.gdtimg.com

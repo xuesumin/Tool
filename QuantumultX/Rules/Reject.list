@@ -731,6 +731,7 @@ HOST-SUFFIX,adxadserv.com,REJECT
 HOST-SUFFIX,adxlog-adnet.vivo.com.cn,REJECT
 HOST-SUFFIX,adxlog-adnet.vivo.com.cn.dsa.dnsv1.com.cn,REJECT
 HOST-SUFFIX,adzerk.net,REJECT
+HOST-SUFFIX,affinitychina.cn,REJECT
 HOST-SUFFIX,afs.googlesyndication.com,REJECT
 HOST-SUFFIX,aiclk.com,REJECT
 HOST-SUFFIX,airpr.com,REJECT
@@ -1010,6 +1011,7 @@ HOST-SUFFIX,globalapi.ad.xiaomi.com,REJECT
 HOST-SUFFIX,go.mnaspm.com,REJECT
 HOST-SUFFIX,go.myavlive.com,REJECT
 HOST-SUFFIX,go2cloud.org,REJECT
+HOST-SUFFIX,goldwavechina.cn,REJECT
 HOST-SUFFIX,google-analytics.com,REJECT
 HOST-SUFFIX,googleadservices-cn.com,REJECT
 HOST-SUFFIX,googleadservices.com,REJECT
@@ -1247,6 +1249,7 @@ HOST-SUFFIX,measurementapi.com,REJECT
 HOST-SUFFIX,media.aso1.net,REJECT
 HOST-SUFFIX,medialytics.com,REJECT
 HOST-SUFFIX,mediav.com,REJECT
+HOST-SUFFIX,medproad.com,REJECT
 HOST-SUFFIX,meetrics.com,REJECT
 HOST-SUFFIX,meetrics.net,REJECT
 HOST-SUFFIX,metok.sys.miui.com,REJECT
@@ -1434,6 +1437,7 @@ HOST-SUFFIX,propellerads.com,REJECT
 HOST-SUFFIX,proper.io,REJECT
 HOST-SUFFIX,proxistore.com,REJECT
 HOST-SUFFIX,proxy.advp.apple.com,REJECT
+HOST-SUFFIX,ps-chajian.com,REJECT
 HOST-SUFFIX,pu0glv.cn,REJECT
 HOST-SUFFIX,pub2srv.com,REJECT
 HOST-SUFFIX,public.gdtimg.com,REJECT
