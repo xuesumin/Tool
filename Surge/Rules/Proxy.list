@@ -1,9 +1,10 @@
-# 2024-04-17 22:10
+# 2024-04-24 18:30
 
 # > 0-9
 
 # > A 
 DOMAIN-SUFFIX,abc.com
+DOMAIN-SUFFIX,about.me
 DOMAIN-SUFFIX,adblockplus.org
 DOMAIN-SUFFIX,adguard.com
 DOMAIN-SUFFIX,adguard.org
@@ -12,16 +13,13 @@ DOMAIN-SUFFIX,anchor.fm
 DOMAIN-SUFFIX,apkmirror.com
 DOMAIN-SUFFIX,apkpure.com
 DOMAIN,api.revenuecat.com
-DOMAIN-SUFFIX,archive.fo
-DOMAIN-SUFFIX,archive.is
-DOMAIN-SUFFIX,archive.org
-DOMAIN-SUFFIX,archive.ph
 DOMAIN-SUFFIX,archiveofourown.org
 DOMAIN-SUFFIX,artstation.com
 DOMAIN-SUFFIX,ask.com
 DOMAIN-SUFFIX,atlassian.com
 DOMAIN-SUFFIX,avg.com
 DOMAIN-SUFFIX,axios.com
+DOMAIN-KEYWORD,.archive.
 
 # > B
 DOMAIN-SUFFIX,bandcamp.com
@@ -104,6 +102,7 @@ DOMAIN-SUFFIX,hdhive.org
 DOMAIN-SUFFIX,heroku.com
 DOMAIN-SUFFIX,hket.com
 DOMAIN-SUFFIX,huffpost.com
+DOMAIN-SUFFIX,huggingface.co
 
 # > I
 DOMAIN-SUFFIX,i-cable.com
@@ -414,7 +413,7 @@ DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net
 # ------
 
-# > cloudflare
+# > Cloudflare
 DOMAIN-SUFFIX,cf-ipfs.com
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare-ipfs.com
@@ -449,6 +448,7 @@ DOMAIN-SUFFIX,workers.dev
 DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discord.gg
 
 # > Docker
 DOMAIN-SUFFIX,docker.com
