@@ -174,8 +174,6 @@ jobs:
           cat Tool-repo/Surge/Rules/Hijacking_ConnersHua.list >> Tool-repo/Surge/Rules/Reject.list
           cat Tool-repo/Surge/Rules/Tracking_ConnersHua.list >> Tool-repo/Surge/Rules/Reject.list
           cat Tool-repo/Surge/Rules/Ads_AWAvenue.list >> Tool-repo/Surge/Rules/Reject.list
-          cat Tool-repo/Surge/Rules/Ads_SukkaW_Domain.list >> Tool-repo/Surge/Rules/Reject.list
-          cat Tool-repo/Surge/Rules/Ads_SukkaW_NoIP.list >> Tool-repo/Surge/Rules/Reject.list
         else
           echo "$file not found."
         fi
