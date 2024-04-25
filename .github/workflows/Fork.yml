@@ -111,7 +111,7 @@ jobs:
         # AD-QQMusic
         curl -L -o Tool-repo/Surge/Rules/Ads_QQMusic.list "https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Rules/Ads_QQMusic.list"
         # SukkaW
-        curl -L -o Tool-repo/Surge/Rules/Ads_SukkaW_Domain.list "https://ruleset.skk.moe/List/domainset/reject.conf"
+        curl -L -o Tool-repo/Surge/Rules/Ads_SukkaW.list "https://ruleset.skk.moe/List/domainset/reject.conf"
         curl -L -o Tool-repo/Surge/Rules/Ads_SukkaW_NoIP.list "https://ruleset.skk.moe/List/non_ip/reject.conf"
 
       # 适配 Surge 规则
@@ -155,7 +155,7 @@ jobs:
     - name: Edit Surge/Rules domain-set to rule-set
       run: |
         cd Tool-repo/Surge/Rules
-        for file in AdGuardChinese.list Ads_AWAvenue.list Ads_SukkaW_Domain.list; do
+        for file in AdGuardChinese.list Ads_AWAvenue.list Ads_SukkaW.list; do
           if [ -f "$file" ]; then
             # 将以.开头的行的第一个.替换为 DOMAIN-SUFFIX,
             sed -i '/^\./s/^\./DOMAIN-SUFFIX,/' "$file"
@@ -176,6 +176,15 @@ jobs:
           cat Tool-repo/Surge/Rules/Hijacking_ConnersHua.list >> Tool-repo/Surge/Rules/Reject.list
           cat Tool-repo/Surge/Rules/Tracking_ConnersHua.list >> Tool-repo/Surge/Rules/Reject.list
           cat Tool-repo/Surge/Rules/Ads_AWAvenue.list >> Tool-repo/Surge/Rules/Reject.list
+        else
+          echo "$file not found."
+        fi
+
+    - name: Merge rules
+      run: |
+        if [ -f "Tool-repo/Surge/Rules/Ads_SukkaW.list" ] ; then
+          cat Tool-repo/Surge/Rules/Ads_SukkaW_NoIP.list >> Tool-repo/Surge/Rules/Ads_SukkaW.list
+          rm -rf Tool-repo/Surge/Rules/Ads_SukkaW_NoIP.list
         else
           echo "$file not found."
         fi
