@@ -1,17 +1,13 @@
 # TikTok by 可莉
-# 2024-04-21 21:49:56
+# 2024-04-25 20:50:51
 #AND,((NOT,((GEOIP,CN))),(HOST,libra-sg.tiktokv.com))
 #AND,((NOT,((GEOIP,CN))),(HOST,pitaya.bytedance.com))
 HOST,api.snapkit.com,PROXY
 HOST,api2-16-h2.musical.ly.edgekey.net,PROXY
 HOST,bytedance.map.fastly.net,PROXY
-HOST,cdn-tos-sg.byteintl.net,PROXY
-HOST,cdn-tos-useast2a.byteintl.net,PROXY
-HOST,cdn-tos-va.byteintl.net,PROXY
 HOST,cocacola.co.jp,PROXY
 HOST,courses.snapsolve.com,PROXY
 HOST,engagements.appsflyer.com,PROXY
-HOST,lf1-ttcdn-tos.pstatp.com,PROXY
 HOST,lf16-campaign.ttlstatic.com,PROXY
 HOST,lf16-csp.oecstatic.com,PROXY
 HOST,lf16-pkgcdn.pitaya-clientai.com,PROXY
@@ -45,18 +41,6 @@ HOST,pull-rtmp-l1-mus.pstatp.com,PROXY
 HOST,pull-rtmp-l6-hs.pstatp.com,PROXY
 HOST,roovza-launches.appsflyersdk.com,PROXY
 HOST,sessions.bugsnag.com,PROXY
-HOST,sf1-ttcdn-tos.pstatp.com,PROXY
-HOST,sf6-ttcdn-tos.pstatp.com,PROXY
-HOST,tiktokcdn-us.com.atomile.com,PROXY
-HOST,tiktokcdn-us.com.c.worldfcdn2.com,PROXY
-HOST,tiktokcdn.com.atomile.com,PROXY
-HOST,tiktokcdn.com.c.bytefcdn-ttpeu.com,PROXY
-HOST,tiktokcdn.com.c.worldfcdn.com,PROXY
-HOST,tiktokcdn.com.rocket-cdn.com,PROXY
-HOST,tiktokcdn.com.tlivepush.com,PROXY
-HOST,tiktokv.com.c.worldfcdn.com,PROXY
-HOST,tiktokv.com.c.worldfcdn2.com,PROXY
-HOST,ttlivecdn.com.c.worldfcdn.com,PROXY
 HOST,video.h1.bytedance.map.fastly.net,PROXY
 HOST-SUFFIX,bytedance.com,PROXY
 HOST-SUFFIX,bytedance.net,PROXY
@@ -112,3 +96,8 @@ HOST-SUFFIX,ttoversea.net,PROXY
 HOST-SUFFIX,ttoverseaus.net,PROXY
 HOST-SUFFIX,ttwstatic.com,PROXY
 HOST-SUFFIX,tzvbfs.com,PROXY
+HOST-KEYWORD,tiktokcdn-,PROXY
+HOST-KEYWORD,tiktokcdn.com.,PROXY
+HOST-KEYWORD,tiktokv.com.,PROXY
+HOST-KEYWORD,ttcdn-tos.,PROXY
+HOST-KEYWORD,ttlivecdn.com.,PROXY

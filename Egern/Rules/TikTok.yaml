@@ -3,13 +3,9 @@ domain_set:
 - api.snapkit.com
 - api2-16-h2.musical.ly.edgekey.net
 - bytedance.map.fastly.net
-- cdn-tos-sg.byteintl.net
-- cdn-tos-useast2a.byteintl.net
-- cdn-tos-va.byteintl.net
 - cocacola.co.jp
 - courses.snapsolve.com
 - engagements.appsflyer.com
-- lf1-ttcdn-tos.pstatp.com
 - lf16-campaign.ttlstatic.com
 - lf16-csp.oecstatic.com
 - lf16-pkgcdn.pitaya-clientai.com
@@ -43,18 +39,6 @@ domain_set:
 - pull-rtmp-l6-hs.pstatp.com
 - roovza-launches.appsflyersdk.com
 - sessions.bugsnag.com
-- sf1-ttcdn-tos.pstatp.com
-- sf6-ttcdn-tos.pstatp.com
-- tiktokcdn-us.com.atomile.com
-- tiktokcdn-us.com.c.worldfcdn2.com
-- tiktokcdn.com.atomile.com
-- tiktokcdn.com.c.bytefcdn-ttpeu.com
-- tiktokcdn.com.c.worldfcdn.com
-- tiktokcdn.com.rocket-cdn.com
-- tiktokcdn.com.tlivepush.com
-- tiktokv.com.c.worldfcdn.com
-- tiktokv.com.c.worldfcdn2.com
-- ttlivecdn.com.c.worldfcdn.com
 - video.h1.bytedance.map.fastly.net
 domain_suffix_set:
 - bytedance.com
@@ -112,6 +96,11 @@ domain_suffix_set:
 - ttwstatic.com
 - tzvbfs.com
 domain_keyword_set:
+- tiktokcdn-
+- tiktokcdn.com.
+- tiktokv.com.
+- ttcdn-tos.
+- ttlivecdn.com.
 domain_regex_set:
 ip_cidr_set:
 ip_cidr6_set:
