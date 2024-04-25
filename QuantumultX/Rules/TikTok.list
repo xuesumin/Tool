@@ -1,10 +1,8 @@
 # TikTok by 可莉
-# 2024-04-25 20:50:51
+# 2024-04-25 21:08:24
 #AND,((NOT,((GEOIP,CN))),(HOST,libra-sg.tiktokv.com))
 #AND,((NOT,((GEOIP,CN))),(HOST,pitaya.bytedance.com))
 HOST,api.snapkit.com,PROXY
-HOST,api2-16-h2.musical.ly.edgekey.net,PROXY
-HOST,bytedance.map.fastly.net,PROXY
 HOST,cocacola.co.jp,PROXY
 HOST,courses.snapsolve.com,PROXY
 HOST,engagements.appsflyer.com,PROXY
@@ -19,7 +17,6 @@ HOST,musically-alternate.app.link,PROXY
 HOST,musically.app.link,PROXY
 HOST,p1-tt-ipv6.byteimg.com,PROXY
 HOST,p1-tt.byteimg.com,PROXY
-HOST,p16-tiktokcdn-com.akamaized.net,PROXY
 HOST,p26-tt.byteimg.com,PROXY
 HOST,p3-tt-ipv6.byteimg.com,PROXY
 HOST,p9-tt.byteimg.com,PROXY
@@ -41,7 +38,6 @@ HOST,pull-rtmp-l1-mus.pstatp.com,PROXY
 HOST,pull-rtmp-l6-hs.pstatp.com,PROXY
 HOST,roovza-launches.appsflyersdk.com,PROXY
 HOST,sessions.bugsnag.com,PROXY
-HOST,video.h1.bytedance.map.fastly.net,PROXY
 HOST-SUFFIX,bytedance.com,PROXY
 HOST-SUFFIX,bytedance.net,PROXY
 HOST-SUFFIX,bytedapm.com,PROXY
@@ -96,6 +92,8 @@ HOST-SUFFIX,ttoversea.net,PROXY
 HOST-SUFFIX,ttoverseaus.net,PROXY
 HOST-SUFFIX,ttwstatic.com,PROXY
 HOST-SUFFIX,tzvbfs.com,PROXY
+HOST-KEYWORD,bytedance.map.,PROXY
+HOST-KEYWORD,musical.ly.,PROXY
 HOST-KEYWORD,tiktokcdn-,PROXY
 HOST-KEYWORD,tiktokcdn.com.,PROXY
 HOST-KEYWORD,tiktokv.com.,PROXY

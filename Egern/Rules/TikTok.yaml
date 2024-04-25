@@ -1,8 +1,6 @@
 no_resolve: true
 domain_set:
 - api.snapkit.com
-- api2-16-h2.musical.ly.edgekey.net
-- bytedance.map.fastly.net
 - cocacola.co.jp
 - courses.snapsolve.com
 - engagements.appsflyer.com
@@ -17,7 +15,6 @@ domain_set:
 - musically.app.link
 - p1-tt-ipv6.byteimg.com
 - p1-tt.byteimg.com
-- p16-tiktokcdn-com.akamaized.net
 - p26-tt.byteimg.com
 - p3-tt-ipv6.byteimg.com
 - p9-tt.byteimg.com
@@ -39,7 +36,6 @@ domain_set:
 - pull-rtmp-l6-hs.pstatp.com
 - roovza-launches.appsflyersdk.com
 - sessions.bugsnag.com
-- video.h1.bytedance.map.fastly.net
 domain_suffix_set:
 - bytedance.com
 - bytedance.net
@@ -96,6 +92,8 @@ domain_suffix_set:
 - ttwstatic.com
 - tzvbfs.com
 domain_keyword_set:
+- bytedance.map.
+- musical.ly.
 - tiktokcdn-
 - tiktokcdn.com.
 - tiktokv.com.
