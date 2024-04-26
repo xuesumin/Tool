@@ -1,4 +1,4 @@
-# 2024-04-26 20:07
+# 2024-04-26 20:29
 name: Fork & Edit
 
 on:
@@ -128,6 +128,7 @@ jobs:
                    -e 's/-suffix/-SUFFIX/g' \
                    -e 's/-keyword/-KEYWORD/g' \
                    -e 's/ip-cidr/IP-CIDR/g' \
+                   -e 's/-wildcard/-WILDCARD/g' \
                    -e 's/geoip/GEOIP/g' \
                    -e 's/HOST,/DOMAIN,/g' \
                    -e 's/HOST-/DOMAIN-/g' \
