@@ -1,4 +1,4 @@
-# 2024-04-25 20:45
+# 2024-04-26 20:07
 name: Fork & Edit
 
 on:
@@ -498,6 +498,7 @@ jobs:
       # 适配 QuantumultX 规则
     - name: Edit QuantumultX/Rules
       run: |
+        cp -r Tool-repo/Surge/Rules/Ads_SukkaW.list Tool-repo/QuantumultX/Rules/Ads_SukkaW.list
         cd Tool-repo/QuantumultX/Rules
         for file in *.list; do
           if [ "$file" != "OpenAI.list" ] && [ "$file" != "ChatGPT_Voice.list" ]; then
@@ -632,6 +633,7 @@ jobs:
       # 适配 Loon 规则
     - name: Edit Loon/Rules
       run: |
+        cp -r Tool-repo/Surge/Rules/Ads_SukkaW.list Tool-repo/Loon/Rules/Ads_SukkaW.list
         cd Tool-repo/Loon/Rules
         for file in *.list; do
           if [ "$file" != "Lan.list" ] ; then
@@ -1194,6 +1196,7 @@ jobs:
       # 适配 egern 规则 yaml
     - name: Edit Egern/Rules
       run: |
+        cp -r Tool-repo/Surge/Rules/Ads_SukkaW.list Tool-repo/Egern/Rules/Ads_SukkaW.yaml
         cd Tool-repo/Egern/Rules
         for file in *.yaml; do
           if [ -f "$file" ]; then
